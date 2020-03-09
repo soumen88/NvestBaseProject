@@ -1,0 +1,182 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        ndk {
+            moduleName "your dllname"
+        }
+
+        /*sourceSets.main {
+            jni.srcDirs = []
+            jniLibs.srcDir "src/main/jni"
+        }*/
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+
+        debug {
+            buildConfigField "boolean", "LIBRARY_DEBUGABLE", "false"
+            buildConfigField "String", "BASE_URL", BASE_URL
+            buildConfigField "String", "BASE_URL_ZIP", BASE_URL_ZIP
+            buildConfigField "String", "TEMP_BASE_URL", TEMP_BASE_URL
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            ndk {
+                // Building with NDK_DEBUG=1 for mips crashes the compiler in ndk 14.
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            }
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    externalNativeBuild {
+        /*cmake {
+            version '3.10.2'
+            path "src/main/cpp/CMakeLists.txt"
+        }*/
+        /*ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }*/
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    flavorDimensions 'cpuArch'
+    productFlavors {
+        arm7 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'armeabi-v7a'
+            }
+        }
+        arm8 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilters 'arm64-v8a'
+            }
+        }
+        x86 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'x86'
+            }
+        }
+        x86_64 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'x86_64'
+            }
+        }
+        universal {
+            dimension 'cpuArch'
+            // include all default ABIs. with NDK-r16,  it is:
+            //   armeabi-v7a, arm64-v8a, x86, x86_64
+        }
+    }
+}
+
+dependencies {
+    def room_version = "1.1.1"
+    def work_version = "1.0.0-alpha11"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //Logging interceptor for url
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:3.8.0"
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.google.code.gson:gson:2.6.2'
+    //implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    //Rx java adapter
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.google.code.gson:gson:2.6.2'
+    //implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+    //Multidex
+    ///implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.android.support:multidex:1.0.0'
+
+
+    //Read external DB
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+
+    //Debug database
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.1'
+
+    //Material design components
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+    //Constraint layout
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    //Room
+    //Room database
+    implementation "android.arch.persistence.room:runtime:$room_version"
+    annotationProcessor "android.arch.persistence.room:compiler:$room_version"
+    testImplementation "android.arch.persistence.room:testing:$room_version"
+    implementation "android.arch.persistence.room:rxjava2:$room_version"
+
+    //Rx Java and RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
+
+    // material edittext //
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    // material spinner
+    implementation 'com.jaredrummler:material-spinner:1.3.1'
+
+    //Android lifecycle components
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation "android.arch.lifecycle:viewmodel:1.1.1"
+
+    implementation "android.arch.work:work-rxjava2:1.0.1"
+    implementation("android.arch.work:work-runtime:$work_version") {
+        exclude group: 'com.google.guava', module: 'listenablefuture'
+    }
+    androidTestImplementation "android.arch.work:work-testing:$work_version"
+    //
+    implementation 'android.arch.navigation:navigation-fragment:1.0.0'
+    implementation 'android.arch.navigation:navigation-ui:1.0.0'
+
+    //So files addition for sqlite
+    //compile project(':sqliteX')
+    //implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation project(':libraries:UniversalImageLoader-Library')
+    //implementation project(':libraries:sqlitefunctions')
+    //implementation project(':libraries:sqliteX:sqliteX')
+    //compile project(':sqliteX')
+    //implementation 'com.github.graviton57:sqlite-android:1.0.1'
+    implementation project(':sqlite3')
+}

@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    jcenter {
+        url "http://jcenter.bintray.com/"
+    }
+}
+
+android {
+    compileSdkVersion 27
+    //buildToolsVersion '26.0.2'
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'com.pnikosis:materialish-progress:1.0'
+}
+

@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/product_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/product_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:background="@color/colorRed"
+        android:minHeight="@dimen/title_minimum_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.95"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/product_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_layout"
+        android:layout_below="@+id/product_name_layout">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+
+                <LinearLayout
+                    android:id="@+id/pt_ppt_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:id="@+id/layout_PT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/header_PT"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/colorSkyBlue"
+                                android:textSize="12sp" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/text_PT_input_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/header_PT"
+                                android:gravity="center_vertical"
+                                android:visibility="gone">
+
+                                <EditText
+                                    android:id="@+id/text_PT"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:enabled="false"
+                                    android:imeOptions="actionDone"
+                                    android:singleLine="true"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="13sp" />
+
+                            </android.support.design.widget.TextInputLayout>
+
+                        </LinearLayout>
+
+
+                        <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/select_PT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:met_floatingLabel="highlight"
+                            app:theme="@style/AppSpinnerTheme" />
+
+-->
+                        <TextView
+                            android:id="@+id/ptLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_PT"
+                            android:textSize="@dimen/_14sp"
+                            android:visibility="gone"
+                            android:paddingTop="@dimen/_8sp"
+                            style="@style/InputLabel"
+                            />
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/select_PT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:ms_hint="@string/select_value"
+                            android:layout_below="@+id/ptLabel"
+                            app:ms_padding_left="5dp"
+                            app:theme="@style/AppSpinnerTheme">
+                        </com.jaredrummler.materialspinner.MaterialSpinner>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/layout_PPT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/header_PPT"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorSkyBlue"
+                                android:textSize="15sp" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/text_PPT_input_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="center_vertical"
+                                android:visibility="gone">
+
+                                <EditText
+                                    android:id="@+id/text_PPT"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:enabled="false"
+                                    android:imeOptions="actionDone"
+                                    android:singleLine="true"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="13sp" />
+
+                            </android.support.design.widget.TextInputLayout>
+
+                        </LinearLayout>
+
+                        <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/select_PPT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:met_floatingLabel="highlight"
+                            app:theme="@style/AppSpinnerTheme" />
+
+-->
+                        <TextView
+                            android:id="@+id/pptLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_PPT"
+                            android:textSize="@dimen/_14sp"
+                            android:paddingTop="@dimen/_8sp"
+                            android:visibility="gone"
+                            style="@style/InputLabel"
+                            />
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/select_PPT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:ms_hint="@string/select_value"
+                            android:layout_below="@+id/pptLabel"
+                            app:ms_padding_left="5dp"
+                            app:theme="@style/AppSpinnerTheme">
+
+                        </com.jaredrummler.materialspinner.MaterialSpinner>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mode_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pt_ppt_layout">
+
+                    <LinearLayout
+                        android:id="@+id/layout_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/header_mode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorSkyBlue"
+                            android:textSize="15sp" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/text_mode_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_vertical"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_mode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:enabled="false"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textColor="@android:color/black"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/select_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:textSize="13sp"
+                        android:visibility="gone"
+                        app:met_floatingLabel="highlight"
+                        app:theme="@style/AppSpinnerTheme" />
+-->
+                    <TextView
+                        android:id="@+id/modeLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_mode"
+                        android:textSize="@dimen/_14sp"
+                        android:paddingTop="@dimen/_8sp"
+                        android:visibility="gone"
+                        style="@style/InputLabel"
+                        />
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/select_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:textSize="13sp"
+                        android:visibility="gone"
+                        app:ms_hint="@string/select_value"
+                        android:layout_below="@+id/modeLabel"
+                        app:ms_padding_left="5dp"
+                        app:theme="@style/AppSpinnerTheme"></com.jaredrummler.materialspinner.MaterialSpinner>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/emr_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mode_layout">
+
+                    <LinearLayout
+                        android:id="@+id/layout_emr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/header_emr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorSkyBlue"
+                            android:textSize="15sp" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/text_emr_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_emr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textColor="@android:color/black"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/select_emr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:textSize="13sp"
+                        android:visibility="gone"
+                        app:met_floatingLabel="highlight"
+                        app:theme="@style/AppSpinnerTheme" />
+-->
+                    <TextView
+                        android:id="@+id/emrLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_emr"
+                        android:textSize="@dimen/_14sp"
+                        android:paddingTop="@dimen/_8sp"
+                        android:visibility="gone"
+                        style="@style/InputLabel"
+                        />
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/select_emr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:textSize="13sp"
+                        android:visibility="gone"
+                        app:ms_hint="@string/select_value"
+                        android:layout_below="@+id/emrLabel"
+                        app:ms_padding_left="5dp"
+                        app:theme="@style/AppSpinnerTheme"></com.jaredrummler.materialspinner.MaterialSpinner>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/flat_extra_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emr_layout">
+
+                    <LinearLayout
+                        android:id="@+id/layout_flat_extra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/header_flat_extra"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorSkyBlue"
+                            android:textSize="15sp" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/text_flat_extra_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_flat_extra"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textColor="@android:color/black"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/select_flat_extra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:textSize="13sp"
+                        android:visibility="gone"
+                        app:met_floatingLabel="highlight"
+                        app:theme="@style/AppSpinnerTheme" />
+-->
+                    <TextView
+                        android:id="@+id/flatExtraLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_flatextra"
+                        android:visibility="gone"
+                        android:textSize="@dimen/_14sp"
+                        android:paddingTop="@dimen/_8sp"
+                        style="@style/InputLabel"
+                        />
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/select_flat_extra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:textSize="13sp"
+                        android:visibility="gone"
+                        android:layout_below="@+id/flatExtraLabel"
+                        app:ms_padding_left="5dp"
+                        app:theme="@style/AppSpinnerTheme" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/dynamic_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_layout"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:visibility="visible">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/options_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dynamic_layout"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/option_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Options"
+                    android:textColor="@color/colorSkyBlue"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+
+                <View
+                    android:id="@+id/seperatorOptions"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/colorSkyBlue"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/background_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/options_layout"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorLightBlue"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/sum_assured_header_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/text_label_SA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorSkyBlue"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/text_view_rs_sa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/rs"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/sum_assured_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_sa"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_sum_assured"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberDecimal"
+                                android:maxLength="10"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/select_sa_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_sa"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:met_floatingLabel="highlight"
+                            app:theme="@style/AppSpinnerTheme" />
+-->
+                        <TextView
+                            android:id="@+id/saLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_sa"
+                            android:textSize="@dimen/_14sp"
+                            android:visibility="gone"
+                            android:paddingTop="@dimen/_8sp"
+                            style="@style/InputLabel"
+                            />
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/select_sa_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_sa"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:ms_hint="@string/select_value"
+                            android:layout_below="@+id/saLabel"
+                            app:ms_padding_left="5dp"
+                            app:theme="@style/AppSpinnerTheme" />
+                        <TextView
+                            android:id="@+id/text_SA_num_to_words"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/sum_assured_input_layout"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_sa"
+                            android:maxLines="2"
+                            android:textSize="13sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/modal_premium_header_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <TextView
+                        android:id="@+id/text_label_MP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/colorSkyBlue"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/text_view_rs_mp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/rs"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/modal_premium_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mp"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_modal_premium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberDecimal"
+                                android:maxLength="14"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/select_mp_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mp"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:met_floatingLabel="highlight"
+                            app:theme="@style/AppSpinnerTheme" />
+-->
+                        <TextView
+                            android:id="@+id/mpLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_mp"
+                            android:textSize="@dimen/_14sp"
+                            android:visibility="gone"
+                            android:paddingTop="@dimen/_8sp"
+                            style="@style/InputLabel"
+                            />
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/select_mp_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mp"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            android:layout_below="@+id/mpLabel"
+                            app:ms_padding_left="5dp"
+                            app:theme="@style/AppSpinnerTheme"/>
+                        <TextView
+                            android:id="@+id/text_MP_num_to_words"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/modal_premium_input_layout"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mp"
+                            android:maxLines="2"
+                            android:textSize="13sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/annual_premium_header_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/text_label_AP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/colorSkyBlue"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/text_view_rs_ap"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/rs"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/annual_premium_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/text_view_rs_ap"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_annual_premium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberDecimal"
+                                android:maxLength="14"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/select_ap_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_ap"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:met_floatingLabel="highlight"
+                            app:theme="@style/AppSpinnerTheme" />
+-->
+                        <TextView
+                            android:id="@+id/apLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_ap"
+                            android:textSize="@dimen/_14sp"
+                            android:visibility="gone"
+                            android:paddingTop="@dimen/_8sp"
+                            style="@style/InputLabel"
+                            />
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/select_ap_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_ap"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:ms_hint="@string/select_value"
+                            android:layout_below="@+id/apLabel"
+                            app:ms_padding_left="5dp"
+                            app:theme="@style/AppSpinnerTheme"/>
+                        <TextView
+                            android:id="@+id/text_AP_num_to_words"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/annual_premium_input_layout"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_ap"
+                            android:maxLines="2"
+                            android:textSize="13sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/monthly_income_header_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/text_label_MI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/colorSkyBlue"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/text_view_rs_mi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/rs"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/monthly_income_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mi"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_monthly_income"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberDecimal"
+                                android:maxLength="14"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/select_mi_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mi"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:met_floatingLabel="highlight"
+                            app:theme="@style/AppSpinnerTheme" />
+-->
+                        <TextView
+                            android:id="@+id/miLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_mi"
+                            android:textSize="@dimen/_14sp"
+                            android:visibility="gone"
+                            android:paddingTop="@dimen/_8sp"
+                            style="@style/InputLabel"
+                            />
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/select_mi_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mi"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:ms_hint="@string/select_value"
+                            android:layout_below="@+id/miLabel"
+                            app:ms_padding_left="5dp"
+                            app:theme="@style/AppSpinnerTheme"/>
+                        <TextView
+                            android:id="@+id/text_MI_num_to_words"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/monthly_income_input_layout"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_mi"
+                            android:maxLines="2"
+                            android:textSize="13sp" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/samf_header_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/text_label_samf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/colorSkyBlue"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/text_view_rs_samf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/rs"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/samf_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/text_view_rs_samf"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/text_samf"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberDecimal"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/select_samf_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_samf"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            app:met_floatingLabel="highlight"
+                            app:theme="@style/AppSpinnerTheme" />
+-->
+                        <TextView
+                            android:id="@+id/samfLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_samf"
+                            android:textSize="@dimen/_14sp"
+                            android:visibility="gone"
+                            android:paddingTop="@dimen/_8sp"
+                            style="@style/InputLabel"
+                            />
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/select_samf_input_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_samf"
+                            android:textSize="13sp"
+                            android:visibility="gone"
+                            android:layout_below="@+id/samfLabel"
+                            app:ms_hint="@string/select_value"
+                            app:theme="@style/AppSpinnerTheme"/>
+                        <TextView
+                            android:id="@+id/text_samf_num_to_words"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/samf_input_layout"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/text_view_rs_samf"
+                            android:maxLines="2"
+                            android:textSize="13sp" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fund_strategy_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/background_layout"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/text_label_fund_strategy"
+                    style="@style/InputLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_8sp"
+                    android:text="@string/fund_strategy"
+                    android:textSize="@dimen/_14sp"
+                    android:visibility="gone" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/select_fund_strategy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ptLabel"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:textSize="13sp"
+                    android:visibility="gone"
+                    app:ms_hint="@string/select_value"
+                    app:theme="@style/AppSpinnerTheme" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/recycler_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/fund_strategy_selector"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/layout_funds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/text_fund"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_funds"
+                        android:textColor="@color/colorSkyBlue"
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/text_error_fund"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/colorRed"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/seperator"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:visibility="gone" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/funds_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/total_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorLightBlue"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="15dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.80"
+                        android:text="@string/total_funds"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/text_funds_sum"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.20"
+                        android:gravity="start"
+                        android:text="@string/default_zero_percent"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_validate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorRed"
+            android:onClick="onClick"
+            android:text="@string/btn_text_validate"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/touchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

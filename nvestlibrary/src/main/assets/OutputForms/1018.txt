@@ -1,0 +1,35 @@
+<table style="border: 1px solid #AECFF7;table-layout:auto; border-collapse: collapse;width:100%"> 
+
+
+<thead style="page-break-inside: avoid !important;">
+<tr>
+<th style="font-family: serif !important; ;font-size:9px; font-weight: bold; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="7">Figures in Rs</th>
+</tr>
+<tr>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="2">Primary Borrower</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="2">Secondary Borrower</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="3">Total</td>
+</tr>
+<tr>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Sum Assured</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Installment Premium (Exclusive of Goods and Services Tax)</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Sum Assured</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Installment Premium (Exclusive of Goods and Services Tax)</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Installment Premium without Goods and Services Tax</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Goods and Services Tax</td>
+<td style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Total Installment Premium (Including Goods and Services Tax)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="edittd ui-droppable" style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal;" contenteditable="true"><span>[SA_PRIMARY]</span></td>
+<td class="edittd ui-droppable" style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal;" contenteditable="true"><span>[MODAL_PREM_PRIMARY]</span></td>
+<td class="edittd ui-droppable" style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal;" contenteditable="true"><span>[SA_SECONDARY]</span></td>
+<td class="edittd ui-droppable" style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal;" contenteditable="true"><span>[MODAL_PREM_SECONDARY]</span></td>
+<td class="edittd ui-droppable" style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal;" contenteditable="true"><span>[MODAL_PREM]</span></td>
+<td class="edittd ui-droppable" style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal;" contenteditable="true"><span>[TAX_MP]</span></td>
+<td class="edittd ui-droppable" style="font-family: serif !important; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal;" contenteditable="true"><span>[MODAL_PREM_TAX]</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

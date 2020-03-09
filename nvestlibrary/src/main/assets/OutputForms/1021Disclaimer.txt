@@ -1,0 +1,31 @@
+﻿<p>1. Base Annual Premium at the Beginning of Policy Year(excluding Rider Premium and NSAP loading, if any and all extra premium, Goods and Services Tax)</p>
+<p>2. Payable as per the option chosen. <br /> <br /> <strong>Terms and Conditions </strong></p>
+<ul style="line-height: 25px;" type="none">
+<li style="margin-bottom: 10px;">1. Income tax benefits are available under Section 80C and Section 10(10D) of The Income Tax Act, 1961, subject to conditions stipulated therein and which are subject to change from time to time. You may please consult your tax advisor for further details.</li>
+<li style="margin-bottom: 10px;">2. The proposal deposit receipt given in respect of the consideration amount paid to the company does not bind the company to accept the risk on the life of the life proposed under the proposal for insurance. The above premium is for a healthy individual and would be subject to underwriting.<br />Any extra premiums charged are subject to underwriting of proposal, and may change based on the Board approved underwriting policy. The extra premium to be charged for Non Standard Age Proof cases (NSAP) is Rs. 1.5 per thousand Sum Assured.</li>
+<li style="margin-bottom: 10px;">3. Death Benefit is payable as per as the payout option chosen. Three options are available to the customer and can be changed at any time during the policy term:<br />-Lump sum : Death benefit will be paid in Lump sum immediately.<br />-Monthly Income: Monthly Income Benefit of 1% of the Death Benefit will be paid every month for a fixed period of 125 months, starting from next policy month anniversary following the date of death.<br />-Lump sum plus Monthly Income: 50% of the death benefit will be paid as Lump sum immediately and Monthly Income Benefit of 0.50% of the Death Benefit will be paid every month for a fixed period of 125 months, starting from next policy month anniversary following the date of death.</li>
+<li style="margin-bottom: 10px;">4. Star Union Dai-ichi Life insurance is the name of the company and 'SUD Life Abhay' is only the name of the Plan and does in no way indicate the quality of the policy, its future prospects or returns.</li>
+<li class = "hideme" style="margin-bottom: 10px;">5. Goods and Services Tax will be charged on premiums as per prevailing tax laws. The rate currently applicable for Base Plan is 18%. The rate currently applicable on Rider Plan is 18%.This is subject to any change in the tax rate</li>
+<li class = "showme" style="margin-bottom: 10px;">5. Goods and Services Tax will be charged on premiums as per prevailing tax laws. The rate currently applicable for Base Plan is 4.50% on the first year premium and 2.25% on renewal premium. The rate currently applicable on Rider Plan is 18%.This is subject to any change in the tax rate</li>
+<li style="margin-bottom: 10px;">6. For more details on risk factor, terms and conditions, please read the Sales brochure of the plan carefully before concluding a sale.</li>
+</ul>
+<p><strong>In case you require any clarification, please consult your insurance advisor or call our office.</strong></p>
+
+<p>Name of the Specified Person/Agent/Other sales Representative:</p>
+<p>Specified Person/Agent/Other sales Representative Code:</p>
+<p class="signature">Signature of the Authorised person :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Prospect's/Policyholder's signature</p>
+<p><br />Place: <br /> Date:</p>
+
+<script>
+	showhide();
+	function showhide()
+	{
+		$(".hideme").css("display","block");
+		$(".showme").css("display","none");
+		$("div span:contains('Return of Premium')").each(function() 
+		{ 
+			$(".hideme").css("display","none");
+			$(".showme").css("display","block");
+		});
+	}
+</script>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/landingFragment"
+    >
+
+
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="nvest.com.nvestlibrary.landingfragment.LandingFragment"
+        android:label="Select Product"
+        tools:layout="@layout/fragment_landing">
+        <action
+            android:id="@+id/action_landingFragment_to_basicInformationFragment"
+            app:destination="@id/basicInformationFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_educationFragment"
+            app:destination="@id/educationFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_needFragment"
+            app:destination="@id/needFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_solutionDetailsFragment"
+            app:destination="@id/solutionDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/basicInformationFragment"
+        android:name="nvest.com.nvestlibrary.basicInformation.BasicInformationFragment"
+        android:label="Basic Information"
+        tools:layout="@layout/fragment_basic_information">
+        <action
+            android:id="@+id/action_basicInformationFragment_to_productInformationFragment"
+            app:destination="@id/productInformationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productInformationFragment"
+        android:name="nvest.com.nvestlibrary.productinformation.ProductInformationFragment"
+        android:label="Product Information"
+        tools:layout="@layout/product_information_fragment">
+        <action
+            android:id="@+id/action_productInformationFragment_to_riderFragment"
+            app:destination="@id/riderFragment" />
+        <action
+            android:id="@+id/action_productInformationFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/riderFragment"
+        android:name="nvest.com.nvestlibrary.riderinformation.RiderFragment"
+        android:label="Rider Information"
+        tools:layout="@layout/fragment_rider">
+        <action
+            android:id="@+id/action_riderFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="nvest.com.nvestlibrary.summary.SummaryFragment"
+        android:label="Summary"
+        tools:layout="@layout/fragment_summary" />
+
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="nvest.com.nvestlibrary.needbasedanalyser.education.EducationFragment"
+        android:label="Education"
+        tools:layout="@layout/education_fragment"
+        />
+
+
+    <fragment
+        android:id="@+id/needFragment"
+        android:name="nvest.com.nvestlibrary.needbasedanalyser.display.NeedFragment"
+        android:label="Need Fragment"
+        tools:layout="@layout/need_analyser_display_fragment">
+
+        <action
+            android:id="@+id/action_needFragment_to_wealthFragment"
+            app:destination="@id/wealthFragment" />
+
+        <action
+            android:id="@+id/action_needFragment_to_educationFragment"
+            app:destination="@id/educationFragment" />
+
+        <action
+            android:id="@+id/action_needFragment_to_RetirementFragment"
+            app:destination="@id/retirementFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/solutionDetailsFragment"
+        android:name="nvest.com.nvestlibrary.solutionDetails.SolutionDetailsFragment"
+        android:label="Solution Details"
+        tools:layout="@layout/fragment_solution_details">
+        <action
+            android:id="@+id/action_solutionDetailsFragment_to_productInformationFragment"
+            app:destination="@id/productInformationFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/wealthFragment"
+        android:name="nvest.com.nvestlibrary.needbasedanalyser.wealth.WealthAccumulationFragment"
+        android:label="Wealth Information Analyser"
+        tools:layout="@layout/wealth_accumulation_fragment">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/retirementFragment"
+        android:name="nvest.com.nvestlibrary.needbasedanalyser.retirement.RetirementFragment"
+        android:label="Retirement Fragment"
+        tools:layout="@layout/retirement_fragment" />
+
+</navigation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/includeLayout"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp" />
+
+    <nvest.com.nvestlibrary.commonMethod.NvestCustomScrollView
+        android:id="@+id/product_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includeLayout">
+
+        <LinearLayout
+            android:id="@+id/add_dynamic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+<!--        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            &lt;!&ndash;<android.support.v7.widget.RecyclerView
+                android:id="@+id/solutionRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                tools:itemCount="3"
+                tools:listitem="@layout/item_solution" />&ndash;&gt;
+        </LinearLayout>-->
+    </nvest.com.nvestlibrary.commonMethod.NvestCustomScrollView>
+
+
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/productRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includeLayout" />-->
+    <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/fab"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="@dimen/_16dp"-->
+            <!--android:layout_marginBottom="@dimen/_16dp"-->
+            <!--android:foregroundGravity="right|bottom"-->
+            <!--android:scaleType="center"-->
+            <!--android:src="@drawable/ic_sync_black_24dp"-->
+            <!--app:fabSize="normal"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:backgroundTint="@color/colorSkyBlue"-->
+            <!--app:layout_constraintRight_toRightOf="parent" />-->
+
+
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+
+
+    <FrameLayout
+        android:id="@+id/touchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>

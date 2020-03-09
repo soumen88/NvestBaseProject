@@ -1,0 +1,143 @@
+<p class="channelType">The commission payable under this product is subject to limits set under IRDA (Non-Linked Inusrance Products) Regulations, 2013, which is as mentioned below</p>
+<table class="channelType" style="width: 100%; margin: 0 auto; border-collapse: collapse;">
+<thead style="page-break-inside: avoid;">
+<tr style="page-break-inside: avoid;">
+<th style="border: 1px solid; padding: 5px; width: 30%;">Policy Year</th>
+<th style="border: 1px solid; padding: 5px; width: 70%;" colspan="3">Maximum Commission allowed as % of Premium</th>
+</tr>
+<tr style="page-break-inside: avoid;">
+<th style="border: 1px solid; padding: 5px;">&nbsp;</th>
+<th style="border: 1px solid; padding: 5px;">Single Premium Policies</th>
+<th style="border: 1px solid; padding: 5px;">Non-Single Premium deferred annuity Policies</th>
+<th style="border: 1px solid; padding: 5px;">All other non-single premium policies</th>
+</tr>
+</thead>
+<tbody>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">1st Year</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">2%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">7.50%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">#35% (40% for insurers in 1st 10 years of business)</td>
+</tr>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">2nd &amp; 3rd Years</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">2%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">#7.50%</td>
+</tr>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">4th Year onwards</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">2%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">5%</td>
+</tr>
+<tr style="page-break-inside: avoid;">
+<td colspan="4"># For broker channel, the maximum commission in the first year is 30% of the annualised premium and in year 2 and onwards it is 5% of the annualised premium.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Terms and Conditions </strong></p>
+<ol style="line-height: 25px;" type="1">
+<li style="margin-bottom: 10px;"><strong>Rate of Return Assumed in the Sales Illustration </strong> <br /> As this is a non linked non participating plan, where all benefits are guaranteed, rate of return is not applicable.</li>
+<li style="margin-bottom: 10px;"><strong>Rider Benefit </strong> <br /> No riders are offered under this plan.</li>
+<li style="margin-bottom: 10px;"><strong>Surrender Benefit</strong><br />
+<span class="hideme">Surrender Benefit is available only under Annuity Option 2 , Annuity Option 3 and Annuity Option 7</span>
+<span class="hideme"></br></span>
+<span class="showme" style="display: inline;"><strong>a.</strong></span><span>
+<strong>Surrender Benefit upon diagnosed with Critical Illness</strong></span>
+<br />The policy can be surrendered, <br />
+<ol type="i">
+	<li>if the Annuitant is diagnosed with any one of the Critical Illnesses mentioned below (in case of Annuity Option 2 &amp; 3 ).</li>
+	<li>If Annuity Option 7 is chosen, then Surrender Value will be available when both annuitants or the last surviving Annuitant diagnosed with any one of the Critical Illnesses mentioned below. <br />
+<ol type="1">
+	<li>Cancer of Specified Severity</li>
+	<li>First Heart Attack - of Specified Severity</li>
+	<li>Stroke Resulting in Permanent Symptoms</li>
+	<li>Open Chest CABG</li>
+	<li>Kidney Failure Requiring Regular Dialysis</li>
+	<li>Multiple Sclerosis With Persisting Symptoms</li>
+	<li>Major Organ /Bone Marrow Transplant</li>
+	<li>Open Heart Replacement or Repair of Heart Valves</li>
+	<li>Coma of Specified Severity</li>
+	<li>Permanent Paralysis of Limbs</li>
+	<li>Motor Neurone Disease with Permanent Symptom</li>
+</ol>
+The Surrender Value payable will be as per the below table <br />
+<table style="border-collapse: collapse; margin: 10px 0;">
+	<thead>
+	<tr>
+	<th style="border: 1px solid; padding: 5px; text-align: center;">Policy Year</th>
+	<th style="border: 1px solid; padding: 5px; text-align: center;">Surrender Value as % of Purchase Price (excluding taxes, if any)</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td style="border: 1px solid; padding: 5px; text-align: center;">1 to 3</td>
+	<td style="border: 1px solid; padding: 5px; text-align: center;">95%</td>
+	</tr>
+	<tr>
+	<td style="border: 1px solid; padding: 5px; text-align: center;">4 to 10</td>
+	<td style="border: 1px solid; padding: 5px; text-align: center;">98%</td>
+	</tr>
+	<tr>
+	<td style="border: 1px solid; padding: 5px; text-align: center;">11 and above</td>
+	<td style="border: 1px solid; padding: 5px; text-align: center;">100%</td>
+	</tr>
+	</tbody>
+	</table>
+
+</li>
+</ol>
+</li>
+<div class = "showme"><strong>b.Surrender Benefit on complete foreclosure of Reverse Mortgage Loan:</strong>Polices can be surrendered upon complete foreclosure of Reverse Mortgage Loan, The Surrender Value payable will be as per the below table. <br />
+<table style="border-collapse: collapse; margin: 10px 0;">
+<thead>
+<tr>
+<th style="border: 1px solid; padding: 5px; text-align: center;">Policy Year</th>
+<th style="border: 1px solid; padding: 5px; text-align: center;">Surrender Value as % of Purchase Price (excluding taxes, if any)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid; padding: 5px; text-align: center;">1 to 10</td>
+<td style="border: 1px solid; padding: 5px; text-align: center;">95%</td>
+</tr>
+<tr>
+<td style="border: 1px solid; padding: 5px; text-align: center;">11 and above</td>
+<td style="border: 1px solid; padding: 5px; text-align: center;">100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<li style="margin-bottom: 10px;"><strong>Tax Benefits </strong><br />Premiums payable under this plan is eligible for tax benefits as per the prevailing tax laws. The annuity payout would be subject to Income Tax as per the prevailing tax laws . Please consult your tax advisor for details</li>
+<li style="margin-bottom: 10px;"><strong>Proposal Deposit</strong> The proposal deposit receipt given in respect of the consideration amount paid to the company does not bind the company to accept the risk on the life of member proposed under the proposal for insurance.</li>
+<li style="margin-bottom: 10px;"><strong> About Star Union Dai-ichi Life Insurance Company Limited </strong><br />Star Union Dai-ichi Life insurance is the name of the company and 'SUD Life Immediate Annuity Plus' is only the name of the Plan and does in no way indicate the quality of the policy, its future prospects or returns.</li>
+<li style="margin-bottom: 10px;">The Annuity Payout given above is only indicative. The actual annuity payout will be as per the annuity rates prevailing at the time of issuance of the Policy.</li>
+<li style="margin-bottom: 10px;">Once the contract is issued, the annuity amount is guaranteed for life.</li>
+<li style="margin-bottom: 10px;">Once the policy is issued the Annuity Option and Annuity Payment Mode cannot be changed at later stages.</li>
+<li style="margin-bottom: 10px;">This illustration is based on the terms &amp; conditions of the policy as on the date of the illustration.</li>
+<li style="margin-bottom: 10px;">In case of NSAP, only Option 2 will be available and the applicable annuity rate will be reduced by Rs. 2.00 per annum per thousand purchase price.</li>
+<li style="margin-bottom: 10px;">Goods and Services Tax will be charged on premiums as per prevailing tax laws. The rate currently applicable is 1.80% on the Purchase Price. This is subject to any change in the tax rate. Purchase Price received from NPS is currently exempted from Goods and Services Tax.</li>
+<li style="margin-bottom: 10px;">For more details on risk factor, terms and conditions, please read the Sales brochure of the plan carefully before concluding a sale.</li>
+</ol>
+<p><strong> In case you require any clarification, please consult your insurance advisor or call our office.</strong></p>
+<p>&nbsp;</p>
+<p>I, .............................................. (Name), having received the information with respect to the above, have understood the above illustration before entering into the contract.</p>
+<p>&nbsp;</p>
+<p class="signature">Signature of the Specified Person / Agent / Other Sales Representative : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Annuitant's signature</p>
+<p><br /> Name of the Specified Person / Agent / Other Sales Representative : <br /> Specified Person / Agent / Other Sales Representative Code : <br /> Place: <br /> Date:</p>
+
+
+<script>
+	showhide();
+	function showhide()
+	{
+		$(".hideme").css("display","inline");
+		$(".showme").css("display","none");
+		$("div span:contains('Plan B')").each(function() 
+		{ 
+			$(".hideme").css("display","none");
+			$(".showme").css("display","inline");
+		});
+	}
+</script>

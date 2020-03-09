@@ -1,0 +1,23 @@
+
+<br/>
+    <p>Note:</p>
+	<br/>
+	<br/>
+   <ol type="1" style="line-height:25px;">
+       <li style="margin-bottom: 10px;"> The premium shown above is indicative for Tier 1 Bank, Group Class 5000 and above and calculated assuming that the Insured Member is a normal healthy person. </li>
+       <li style="margin-bottom: 10px;">Sub-standard lives will be covered with appropriate extra premium as per the Company's underwriting guidelines. </li>
+       <li style="margin-bottom: 10px;">Goods and Services Tax will be charged on premiums as per prevailing tax laws. Currently the applicable Goods and Services Tax is 18% of the Single Premium. This is subject to any change in the tax rate.</li>
+       <li style="margin-bottom: 10px;">For more details on risk factor, terms and conditions, please read the Sales brochure of the plan carefully before concluding a sale.</li>
+   </ol>
+    <p><strong>In case you require any clarification, please consult your insurance advisor or call our office.</strong></p>
+    <br />
+	<p>I .............................................. (Name), having received the information with respect to the above, have understood the above statement before entering into the contract.</p>
+	<p>Signature of the Specified Person / Agent / Other Sales Representative :</p>
+	<p><br /> </p>
+	<p class="signature">Company Seal: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policyholder's signature</p>
+	<p>
+	<br /> Name of the Specified Person / Agent / Other Sales Representative :
+	<br /> Specified Person / Agent / Other Sales Representative Code :
+	<br /> Place:
+	<br /> Date:
+	</p>

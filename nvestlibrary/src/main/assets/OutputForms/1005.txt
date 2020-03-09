@@ -1,0 +1,33 @@
+<p>&nbsp;</p>
+<p><strong>Illustrative Benefits on Vesting/Death/Surrender:</strong></p>
+<table style="border: 1px solid #AECFF7;table-layout:auto; border-collapse: collapse;width:100%"> 
+<thead style="page-break-inside: avoid ;">
+<tr>
+<th style="font-family: Arial, sans-serif; font-size:9px; font-weight: bold; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="2">In Years</th>
+<th style="font-family: Arial, sans-serif; font-size:9px; font-weight: bold; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="5">Figures in Rs</th>
+</tr>
+<tr>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Policy Year</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Age</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="2">Total Premiums Paid (without Goods and Services Tax (Rs)</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">&nbsp;Assured Death Benefit (at the end of Policy Year)</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">&nbsp;Assured Vesting Benefit (at the end of Policy Year)</td>
+<td style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; background-color: #ebf7ff; color: #2860a3; text-align: center; vertical-align: middle;" rowspan="2">&nbsp;<strong>Guaranteed Surrender Value (at the end of Policy Year)</strong></td>
+</tr>
+<tr>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;"><strong>During the Year</strong></td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;"><strong>Cumulative</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[POLICYYEAR]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[LI_ATTAINED_AGE]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[ANN_PREM_YEARLY]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[CUM_LOAD_PREM]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[DB_G]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[VESTING_BEN]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[GSV]</span></td>
+</tr>
+</tbody>
+</table>

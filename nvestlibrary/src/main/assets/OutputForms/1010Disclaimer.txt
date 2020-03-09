@@ -1,0 +1,60 @@
+<p>&nbsp;</p>
+<p class="channelType">The commission payable under this product is subject to limits set under IRDA (Non-Linked Inusrance Products) Regulations, 2013, which is as mentioned below</p>
+<table class="channelType" style="width: 100%; margin: 0 auto; border-collapse: collapse;">
+<thead style="page-break-inside: avoid;">
+<tr style="page-break-inside: avoid;">
+<th style="border: 1px solid; padding: 5px; width: 30%;">Policy Year</th>
+<th style="border: 1px solid; padding: 5px; width: 70%;" colspan="3">Maximum Commission allowed as % of Premium</th>
+</tr>
+<tr style="page-break-inside: avoid;">
+<th style="border: 1px solid; padding: 5px;">&nbsp;</th>
+<th style="border: 1px solid; padding: 5px;">Single Premium Policies</th>
+<th style="border: 1px solid; padding: 5px;">Non-Single Premium deferred annuity Policies</th>
+<th style="border: 1px solid; padding: 5px;">All other non-single premium policies</th>
+</tr>
+</thead>
+<tbody>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">1st Year</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">2%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">7.50%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">35% (40% for insurers in 1st 10 years of business)</td>
+</tr>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">2nd &amp; 3rd Years</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">2%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">7.50%</td>
+</tr>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">4th Year onwards</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">2%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">5%</td>
+</tr>
+</tbody>
+</table>
+<p><br /> <br /> <strong>Terms and Conditions </strong> <br /> </p>
+<ol style="line-height: 25px;" type="1">
+<li style="margin-bottom: 10px;"><strong>Rate of Return Assumed in the Sales Illustration </strong><br /> As this is a non linked non participating plan, where all benefits are guaranteed, rate of return is not applicable. </li>
+<li style="margin-bottom: 10px;">No riders are offered under this plan. </li>
+<li style="margin-bottom: 10px;"><strong>Death Benefit</strong> <br /> In case of Normal death during the Policy Term (i.e. death other than accident), provided the policy is in-force, the Death Sum Assured will be paid and the contract ceases. In case of death due to accident during the Policy Term, provided the policy is in-force, benefit equal to twice the Death Sum Assured will be paid and the contract ceases. Death Sum Assured is highest of 10 times of Annualized Premium or 105% of all the premiums paid as on date of death of the Life Assured or Guaranteed Maturity Benefit (i.e. Basic Sum Assured) or Absolute amount assured to be paid on death (i.e. Basic Sum Assured).</li>
+<li style="margin-bottom: 10px;"><strong>Surrender Benefit</strong><br /> Surrender Value payable would be higher of "Guaranteed Surrender Value (GSV)" and "Special Surrender Value (SSV)". Special Surrender Value is calculated according to the basis and method in use from time to time</li>
+<li style="margin-bottom: 10px;"><strong>Tax Benefits </strong><br /> Income tax benefits are available under Section 80C and Section 10(10D) of The Income Tax Act, 1961, subject to conditions stipulated therein and which are subject to change from time to time. You may please consult your tax advisor for further details.</li>
+<li style="margin-bottom: 10px;"><strong>Proposal Deposit </strong><br /> The proposal deposit receipt given in respect of the consideration amount paid to the company does not bind the company to accept the risk on the life of the life proposed under the proposal for insurance. <br /> The above premium is for a healthy individual and would be subject to underwriting. <br /> Any extra premiums charged are subject to underwriting of proposal, and may change based on the Board approved underwriting policy. The extra premium to be charged for Non Standard Age Proof cases (NSAP) is Rs. 1.5 per thousand Sum Assured. </li>
+<li style="margin-bottom: 10px;"><strong> About Star Union Dai-ichi Life Insurance Company Limited </strong><br /> Star Union Dai-ichi Life insurance is the name of the company and 'SUD Life AADARSH' is only the name of the Plan and does in no way indicate the quality of the policy, its future prospects or returns.</li>
+<li style="margin-bottom: 10px;">Goods and Services Tax will be charged on premiums as per prevailing tax laws. The rate currently applicable for Base Plan is 4.50% on the first year premium and 2.25% on renewal premium. </li>
+<li style="margin-bottom: 10px;">For more details on risk factor, terms and conditions, please read the Sales brochure of the plan carefully before concluding a sale. </li>
+<li style="margin-bottom: 10px;">In case you require any clarification, please consult your insurance advisor or call our office. </li>
+</ol>
+<p><br /> <br /> </p>
+<p>I .............................................. (Name), having received the information with respect to the above, have understood the above statement before entering into the contract.</p>
+<p>Signature of the Specified Person / Agent / Other Sales Representative :</p>
+<p><br /> </p>
+<p class="signature">Company Seal: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policyholder's signature</p>
+<p>
+<br /> Name of the Specified Person / Agent / Other Sales Representative :
+<br /> Specified Person / Agent / Other Sales Representative Code :
+<br /> Place:
+<br /> Date:
+</p>

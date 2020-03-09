@@ -1,0 +1,63 @@
+﻿
+<p>* The guaranteed surrender value shown above is only the guaranteed surrender value of total premiums paid and it excludes the guaranteed surrender value on the vested Bonuses and vested Guaranteed Additions.</p>
+<p>&nbsp;</p>
+<p class="channelType">The commission payable under this product is subject to limits set under IRDAI (Payment of Commission or Remuneration or Reward to Insurance Agents and Insurance Intermediaries) Regulations, 2016, which is as mentioned below:</p>
+<table class="channelType" style="width: 100%; margin: 0 auto; border-collapse: collapse;">
+<thead style="page-break-inside: avoid;">
+<tr style="page-break-inside: avoid;">
+<th style="border: 1px solid; padding: 5px; width: 30%;">Policy Year</th>
+<th style="border: 1px solid; padding: 5px; width: 70%;" colspan="5">Maximum Commission allowed as % of Premium</th>
+</tr>
+<tr style="page-break-inside: avoid;">
+<th style="border: 1px solid; padding: 5px;">&nbsp;</th>
+<th style="border: 1px solid; padding: 5px;">Single Premium policies (Except Pure-Risk)</th>
+<th style="border: 1px solid; padding: 5px;">Single Premium policies (Pure-Risk)</th>
+<th style="border: 1px solid; padding: 5px;">Non-single premium deferred annuity policies</th>
+<th style="border: 1px solid; padding: 5px;">Non-single premium Pure Risk</th>
+<th style="border: 1px solid; padding: 5px;">All other non-single premium policies</th>
+</tr>
+</thead>
+<tbody>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">1st Year</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">2%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">7.50%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">7.50%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">40%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">&nbsp;35%</td>
+</tr>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">2nd &amp; 3rd Years</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">10%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">&nbsp;7.5%</td>
+</tr>
+<tr style="page-break-inside: avoid;">
+<td style="border: 1px solid; text-align: center; padding: 5px;">4th Year onwards</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">NA</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">10%</td>
+<td style="border: 1px solid; text-align: center; padding: 5px;">&nbsp;7.5%</td>
+</tr>
+</tbody>
+</table>
+<p><br /> <strong>Terms and Conditions </strong></p>
+<ol style="line-height: 25px;" type="1">
+<li style="margin-bottom: 10px;"><strong>Rate of Return Assumed in the Sales Illustration </strong><br />The rate of return assumed in this illustration at 4% and 8% is in conformation with the guidelines set by the IRDAI and should not be construed as forecast as rates of return are not guaranteed and they are not the upper or lower limits of what you might get back as the value of your policy is dependent on a number of factors, including future investment performance.</li>
+<li style="margin-bottom: 10px;"><strong>Rider Benefit </strong><br />SUD Life Family Income Benefit Rider - Traditional (UIN: 142B007V01) is available under this product on payment of additional premium over and above the Base premium provided conditions on riders (Entry Age, Policy Term, Premium Paying Term, Sum Assured etc) are satisfied.</li>
+<li style="margin-bottom: 10px;"><strong>Surrender Benefit</strong><br />Policy can be surrendered after the payment of 3 full policy years premium. Surrender Value payable will be higher of Guaranteed Surrender Value (GSV) and Special Surrender Value (SSV). SSV is calculated according to the basis and method in use from time to time. <br />Guaranteed Surrender Value = GSV Factors x Total premiums paid upto the date of surrender (excluding taxes and extra premiums if any)+ Bonus Factors x Vested Guaranteed additions and Vested Reversionary Bonuses (including any guaranteed additions and bonus pertaining to policy year of surrender)</li>
+<li style="margin-bottom: 10px;"><strong>Tax Benefits </strong><br />Income tax benefits are available under Section 80C and Section 10(10D) of The Income Tax Act, 1961, subject to conditions stipulated therein and which are subject to change from time to time. You may please consult your tax advisor for further details.</li>
+<li style="margin-bottom: 10px;"><strong>Proposal Deposit </strong><br />The proposal deposit receipt given in respect of the consideration amount paid to the company does not bind the company to accept the risk on the life of the life proposed under the proposal for insurance.<br />The above premium is for a healthy individual and would be subject to underwriting.<br />Any extra premiums charged are subject to underwriting of proposal, and may change based on the Board approved underwriting policy. The extra premium to be charged for Non Standard Age Proof cases (NSAP) is Rs. 1.5 per thousand Sum Assured.<br /><br /></li>
+<li style="margin-bottom: 10px;"><strong> About Star Union Dai-ichi Life Insurance Company Limited </strong><br />Star Union Dai-ichi Life insurance is the name of the company and 'SUD Life Samriddhi' is only the name of the Plan and does in no way indicate the quality of the policy, its future prospects or returns.</li>
+<li style="margin-bottom: 10px;">Goods and Services Tax will be charged on premiums as per prevailing tax laws. The rate currently applicable for Base Plan is 4.50% on the first year premium and 2.25% on renewal premium. The rate currently applicable on Rider Plan is 18%.This is subject to any change in the tax rate.</li>
+<li style="margin-bottom: 10px;">For more details on risk factor, terms and conditions, please read the Sales brochure of the plan carefully before concluding a sale. <br /> <strong> In case you require any clarification, please consult your insurance advisor or call our office.</strong></li>
+</ol>
+<p>&nbsp;</p>
+<p>I .............................................. (Name), having received the information with respect to the above, have understood the above statement before entering into the contract.</p>
+<p>Signature of the Specified Person / Agent / Other Sales Representative :</p>
+<p>&nbsp;</p>
+<p class="signature">Company Seal: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policyholder's signature</p>
+<p><br /> Name of the Specified Person / Agent / Other Sales Representative : <br /> Specified Person / Agent / Other Sales Representative Code : <br /> Place: <br /> Date:</p>

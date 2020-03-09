@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/sync"
+        android:textSize="@dimen/_16sp"
+        android:text="@string/sync_status"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blackBG"
+        android:paddingTop="@dimen/_16sp"
+        />
+     <Button
+         android:id="@+id/checkStatus"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Check Status!"
+         />
+
+    <Button
+        android:id="@+id/insertDummyData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Dummy Data!"
+        />
+
+    <Button
+        android:id="@+id/killAllWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kill All Workers!"
+        />
+
+    <Button
+        android:id="@+id/removeAllDownloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Downloading"
+        />
+
+    <Button
+        android:id="@+id/sendCustomMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Custom Message"
+        />
+
+    <Button
+        android:id="@+id/deleteDataFromTables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Data From Tables"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16sp"
+        android:textSize="@dimen/_16sp"
+        android:text="Before Syncing click on Insert dummy data button"
+        />
+
+    <EditText
+        android:id="@+id/productIdToBeSynced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10dp"
+        android:inputType="number"
+        android:hint="Enter product id for sync"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/syncSingleProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Sync This product"
+        />
+</LinearLayout>

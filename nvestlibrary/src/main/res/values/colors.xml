@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorDisabled">#2AA540</color>
+    <color name="colorAccent">#0098cc</color>
+    <color name="colorRed">#ff1919</color>
+    <color name="colorRedDisabled">@color/colorRedDatepicker</color>
+    <color name="colorRed1">#EE4123</color>
+    <color name="colorSkyBlue">#0098cc</color>
+    <color name="colorGrey">#D3D3D3</color>
+    <color name="colorLightBlue">#b7e1fc</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorRedAlpha">#33ff1919</color>
+    <color name="colorRedDatepicker">#ff5154</color>
+    <color name="colorAlpha">#33000000</color>
+    <color name="colorCheckboxGray">#9f9f9f</color>
+    <color name="colorCheckboxGrayNew">#Cf9f9f</color>
+    <color name="colorBlueAlpha">#33b7e1fc</color>
+    <color name="colorEditFieldRed">#cc0000</color>
+    <color name="headerBG">#53d6d7d7</color>
+    <color name="blackBG">#000000</color>
+    <color name="lightGrey">#DCDCDC</color>
+    <color name="gray_747575">#747575</color>
+    <color name="colorOrange">#EEB76E</color>
+    <color name="colorDarkOrange">#FA9205</color>
+    <color name="disable_color">#DAD5D5</color>
+
+
+    <color name="colorRedUnderline">#F44336</color>
+    <color name="colorTransparentBlue">#880098cc</color>
+
+    <color name="colorSolutionLabel">#e46c0a</color>
+    <color name="colorTextPrimary">#4a4a4a</color>
+    <color name="colorTextSecondary">#aa4a4a4a</color>
+    <color name="color_gray">#B4B4B4</color>
+    <color name="color_blue">#03A9F4</color>
+    <color name="color_red">#FF6A6E</color>
+</resources>

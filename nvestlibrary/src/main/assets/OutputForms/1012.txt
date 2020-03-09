@@ -1,0 +1,106 @@
+<table style="border: 1px solid #AECFF7;table-layout:auto; border-collapse: collapse;width:100%"> 
+ 
+  <thead style="page-break-inside: avoid !important;">
+    <tr>
+      <th style="font-family:serif !important;;font-size:9px;font-weight:bold;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;background-color:#ebf7ff;color:#2860a3;text-align:center">
+      </th>
+      <th style="font-family:serif !important;;font-size:9px;font-weight:bold;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;background-color:#ebf7ff;color:#2860a3;text-align:center" colspan="16">Figures in Rs
+      </th>
+    </tr>
+    <tr>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Policy Year
+      </td>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Single Premium
+      </td>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Premium Allocation Charges
+      </td>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Amount Available for Investment (Out of Premium)
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Mortality Charges
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Goods and Services Tax on all charges
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Policy Admin Charges
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Guarantee Charges
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Other Charges
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Total Charges
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Additions to the fund (if any)
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Fund Before FMC
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">FMC
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Fund at the End of the year
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Surrender Value at the end of the year
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Death Benefit at the end of the year
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Commission Payable
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal" contenteditable="true" class="edittd ui-droppable">
+        <span>[POLICYYEAR]</span>
+      </td>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal" contenteditable="true" class="edittd ui-droppable">
+        <span>[MODAL_PREM]</span>
+      </td>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal" contenteditable="true" class="edittd ui-droppable">
+        <span>[ALL_CHRG]</span>
+      </td>
+      <td style="font-family:serif !important;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal" contenteditable="true" class="edittd ui-droppable">
+        <span>[INVESTED_AMT]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[MORT_CHRG]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[ST_TOTAL]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[ADMIN_CHRG]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+       <span>[GA_TOTAL]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+      <span>[Other_Chrg]</span>
+	  </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[TOTAL_CHRG]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[GA_TOTAL]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[FV_2]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[FMC_CHRG]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[FINAL_FV]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[GSV]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[TOTAL_DB]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[COMMISSION]</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span class="line-numbers-rows">
+  <span>
+  </span>
+</span>

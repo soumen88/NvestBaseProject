@@ -1,0 +1,45 @@
+
+
+<br/>
+    <p>IN THIS POLICY, THE INVESTMENT RISK IS BORNE BY THE POLICYHOLDER AND THE ABOVE INTEREST RATES ARE ONLY FOR ILLUSTRATION PURPOSE. </p>
+    <br/>
+    <p><strong> Definiton of charges: </strong></p>
+    Premium Allocation Charge: This is a premium-based charge deducted from your premiums, and the remainder after deduction of Goods and Services Tax on Premium Allocation Charge is invested to buy units.
+    <br/>
+    Policy Administration Charge: This is a premium-based charge to cover regular administration costs which shall be deducted in advance on the first working day of every policy month by cancelation of units at the prevailing unit ratesss
+    <br/>
+    Fund Management Charge: This will be priced in the unit price of each Fund on a daily basis. This will result in the adjustment of NAV 
+    <br/>
+    Mortality charge: This is levied for providing life insurance cover. This will be deducted in advance on the first working day of every policy month by cancelation of units at the prevailing unit rates 
+    <p> <strong> Notes:</strong></p>
+	<br/>
+   <ol type="1" style="line-height: 25px;">
+    <li style="margin-bottom: 10px;">Fund at the start shall be the amount available for investment in the first year and previous year's end fund for rest of the years.</li>   
+       <li style="margin-bottom: 10px;"> Fund management charge should be based on the fund management charges applicable to specific funds options. </li>
+       <li style="margin-bottom: 10px;"> The surrender payment will be made only after the completion of 5 policy years. Please refer to the sales brochure / policy document for detailed information on surreder / discontinuance </li>
+       <li style="margin-bottom: 10px;"> For the detailed information on benefits refer to the Sales Literature/Policy Document given along with this benefit illustration  </li>
+       <li style="margin-bottom: 10px;"> The Benefit illustration is for a healthy life. The Benefit illustration may undergo changes slightly as per policy terms and conditions before issuance of the policy with respect to life assured's      age,if any or in the event company levies extra mortality charge  </li>
+       <li style="margin-bottom: 10px;"> Extra Mortalty Charge of Rs. 1.50 per annum per thousand Sum at Risk will be deducted in case of Non Standard Age Proof (NSAP). Flat extra (per Rs.1000 Sum at Risk ) is charged towards       Residential, Occupational and  Avocation Loadings. </li>
+       <li style="margin-bottom: 10px;"> Goods and Services Tax will be charged on all charges as per prevailing tax laws. Currently the Goods and Services Tax applicable is 18% and is subject to any change in the tax rate.</li>
+       <li style="margin-bottom: 10px;">
+           The commission/brokerage, if payable to any agents/brokers is included in total charges mentioned in the illustration and is not deducted separately from the fund  
+       </li>
+       <li style="margin-bottom: 10px;">
+           Premiums payable and benefits receivable under this plan are eligible for tax benefits as per the prevailing tax laws. W.e.f. from April 01, 2012, to qualify for tax benefit on premium(s) paid under       section 80 C & for tax benefit on maturity/survival proceeds under section 10 (10 D) of the IT Act, 1961,   the sum assured should not be less than 10 times the annualised premium.       Please consult your tax advisor for details.
+       </li>
+       <li style="margin-bottom: 10px;">
+           For more details on risk factor, terms and conditions, please read Sales brochure of the particular plan carefully before concluding a sale
+
+       </li>
+   </ol>
+    
+    <p>I .............................................. (Name), having received the information with respect to the above, have understood the above statement before entering into the contract.</p>
+	<p>Signature of the Specified Person / Agent / Other Sales Representative :</p>
+	<p><br /> </p>
+	<p class="signature">Company Seal: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policyholder's signature</p>
+	<p>
+	<br /> Name of the Specified Person / Agent / Other Sales Representative :
+	<br /> Specified Person / Agent / Other Sales Representative Code :
+	<br /> Place:
+	<br /> Date:
+	</p>

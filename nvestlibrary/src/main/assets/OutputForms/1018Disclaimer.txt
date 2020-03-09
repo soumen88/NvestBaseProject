@@ -1,0 +1,70 @@
+    <br/>
+    <strong>Terms and Conditions  </strong>
+	<br/>
+	<br/>
+    <ol type="1" style="line-height: 25px;">
+        <li style="margin-bottom: 10px;">
+            No riders are offered under this plan. <br/>
+        </li>
+        
+        <li style="margin-bottom: 10px;">
+            The proposal deposit receipt given in respect of the consideration amount paid to the company does not bind the company to accept the risk on the life of member proposed under the proposal for insurance. <br/>
+            The above premium is for a healthy individual and would be subject to underwriting.   <br/>
+            Any extra premiums charged are subject to underwriting of proposal, and may change based on the Board approved underwriting policy.
+            <br/>
+		</li>
+        <li style="margin-bottom: 10px;">
+            <strong>Death Benefit</strong>
+            <br/>
+            In the event of death of an Insured Member,the death benefit payable will be the loan amount outstanding at the beginning of the policy month during which the death occurs, as per the loan schedule given in the Certificate of Insurance       Maturity Benefit - Maturity benefit not available under this Master Policy.    
+        </li>
+        
+        <li style="margin-bottom: 10px;">
+            <strong>Surrender Benefit</strong><br/>
+            The Insured Member / Master Policyholder can surrender the cover at anytime during the policy term, provided the premiums have been paid for 
+            <ul type="disc">
+                <li>at least first two full policy years for Premium Payment Term of 5 years and 7 years  </li>
+                <li>at least first three full policy years for Premium Payment Term of 10 years  </li>
+            </ul>
+            <br/>
+            Surrender Value =  70% of the Premiums paid x (Unexpired  Policy term (in months) / Total Policy term (in months) ) x (Paid-up Sum Assured benefit at the time of surrender# / Sum Assured at inception)  <br/>
+            Where Paid up Sum Assured = (Number of Premiums Paid / Number of Premiums Payable) X Sum Assured at the time of surrender#   <br/>
+            # If moratorium option is chosen then the sum assured benefit at the time of surrender will be  equal to the Minimum of Sum Assured at inception or the Sum Assured at surrender.   <br/>
+            For more details on Surrender Benefit, please read the Sales Brochure carefully.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Tax Benefits </strong><br/>
+            Premiums payable and benefits receivable under this plan are eligible for tax benefits as per the prevailing tax laws. W.e.f. from April 01, 2012, to qualify for     tax benefit on premium(s) paid under section 80 C & for tax benefit on maturity/survival proceeds under section 10 (10 D) of the IT Act, 1961, the sum assured     should not be less than 10 times the annualised/single premium. Please consult your tax advisor for details
+        <br/>
+        </li>
+       
+        <li style="margin-bottom: 10px;">
+            <strong> About Star Union Dai-ichi Life Insurance Company Limited  </strong><br/>
+			Star Union Dai-ichi Life insurance is the name of the company and 'SUD Life New Aashiana Suraksha' is only the name of the Plan and does in no way indicate the quality of the policy, its future prospects or returns.
+            <br/>
+        </li>
+        
+        <li style="margin-bottom: 10px;"> Goods and Services Tax will be charged on premiums as per prevailing tax laws.The rate currently applicableis 18%. This is subject to any change in the tax rate.<br/></li>
+      
+        <li style="margin-bottom: 10px;">
+            For more details on risk factor, terms and conditions, please read the Sales brochure of the plan carefully before concluding a sale.
+            <br/>
+            
+        </li>
+        <li style="margin-bottom: 10px;"> In case you require any clarification, please consult your master policyholder or insurance advisor or call our office 022-39546300
+        <br/></li>
+    </ol>
+    <br/>
+    <br/>
+   
+    <br />
+    <p>I .............................................. (Name), having received the information with respect to the above, have understood the above statement before entering into the contract.</p>
+	<p>Signature of the Specified Person / Agent / Other Sales Representative :</p>
+	<p><br /> </p>
+	<p class="signature">Company Seal: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policyholder's signature</p>
+	<p>
+	<br /> Name of the Specified Person / Agent / Other Sales Representative :
+	<br /> Specified Person / Agent / Other Sales Representative Code :
+	<br /> Place:
+	<br /> Date:
+	</p>

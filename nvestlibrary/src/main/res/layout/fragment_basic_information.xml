@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_basic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/product_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorRed"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/text_product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/product_name_layout"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.95"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/btn_change_product"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:background="@drawable/ic_edit_white_24dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="18sp" />-->
+    </LinearLayout>
+
+    <include
+        android:id="@+id/progress_basic_layout"
+        layout="@layout/dim_layout_2"
+        android:visibility="gone" />
+
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_layout"
+        android:layout_below="@+id/product_name_layout">
+
+        <RelativeLayout
+            android:id="@+id/mainHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/textAssuredDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/header_life_assured_details"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorSkyBlue"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:id="@+id/sameAsAboveLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/textAssuredDetails"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/lifeAssuredLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp"
+                        >
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editFirstNameLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:theme="@style/TextAppearance"
+                            >
+
+
+                            <EditText
+                                android:id="@+id/editFirstName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:digits="'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                                android:hint="@string/hint_first_name"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textSize="13sp"
+                                />
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editLastNameLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:theme="@style/TextAppearance">
+
+                            <EditText
+                                android:id="@+id/editLastName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:digits="'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                                android:hint="@string/hint_last_name"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dobLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lifeAssuredLayout"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp"
+                        >
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editDatePickerLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            >
+
+                            <EditText
+                                android:id="@+id/editDatePicker"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:cursorVisible="false"
+                                android:drawableRight="@android:drawable/ic_menu_my_calendar"
+                                android:focusable="false"
+                                android:hint="@string/hint_date_format"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editAgeLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.20"
+                            android:visibility="gone">
+
+                            <EditText
+                                android:id="@+id/editAgeText"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:cursorVisible="false"
+                                android:enabled="false"
+                                android:gravity="center"
+                                android:hint="Age"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/genderLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dobLayout"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="4dp"
+                        android:gravity="center"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:id="@+id/genderLabel"
+                            style="@style/InputLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/_8sp"
+                            android:text="@string/select_gender"
+                            android:textSize="13sp"
+                            android:textColor="@color/colorCheckboxGray"/>
+                        <!-- Customize Spinner Comment here. -->
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/selectGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/genderLabel"
+                            android:layout_marginRight="5dp"
+                            android:visibility="visible"
+                            app:ms_hint="@string/select_value"
+                            app:ms_padding_left="5dp"
+                            android:textSize="@dimen/_12sp"
+                            style="@style/Widget.AppCompat.Spinner.Underlined"
+                            app:ms_hint_color="@color/colorCheckboxGray"
+                            app:theme="@style/AppSpinnerTheme"
+                            />
+
+
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layoutProposerDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sameAsAboveLayout"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textProposerDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/header_proposer_details"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorSkyBlue"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textSameAsAbove"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@string/text_same_as_above"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp" />
+
+                    <Switch
+                        android:id="@+id/switch1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textSameAsAbove"
+                        android:layout_marginEnd="28dp"
+                        android:layout_marginRight="28dp"
+                        android:checked="true"
+                        android:gravity="center_horizontal"
+                        android:textOff="NO"
+                        android:textOn="YES"
+                        android:theme="@style/TextAppearance"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sameAsAboveExtraLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/layoutProposerDetails"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/lifeAssuredExtraLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editExtraFirstNameLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:theme="@style/TextAppearance">
+
+
+                            <EditText
+                                android:id="@+id/editExtraFirstName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/hint_first_name"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editExtraLastNameLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:theme="@style/TextAppearance"
+                            >
+
+                            <EditText
+                                android:id="@+id/editExtraLastName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/hint_last_name"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dobExtraLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lifeAssuredExtraLayout"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editDateExtraPickerLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            >
+
+                            <EditText
+                                android:id="@+id/editDateExtraPicker"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:cursorVisible="false"
+                                android:drawableRight="@android:drawable/ic_menu_my_calendar"
+                                android:focusable="false"
+                                android:hint="@string/hint_date_format"
+                                android:textSize="13sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/editAgeExtraLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.20"
+                            android:visibility="gone"
+                            >
+
+                            <EditText
+                                android:id="@+id/editAgeExtraText"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:cursorVisible="false"
+                                android:enabled="false"
+                                android:gravity="center"
+                                android:hint="Age"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/genderExtraLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/dobExtraLayout"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="6dp"
+                        android:paddingTop="10dp">
+
+
+                        <TextView
+                            android:id="@+id/extraGenderLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_gender"
+                            android:textSize="13sp"
+                            android:paddingTop="@dimen/_8sp"
+                            style="@style/InputLabel"
+                            android:textColor="@color/colorCheckboxGray"/>
+                        />
+                        <!-- Customize Spinner Comment here. -->
+
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+
+                            android:id="@+id/selectExtraGender"
+                            android:layout_below="@+id/extraGenderLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:hint="@string/text_gender"
+                            app:ms_hint="@string/select_value"
+                            app:ms_padding_left="5dp"
+                            android:textSize="@dimen/_12sp"
+                            app:ms_hint_color="@color/colorCheckboxGray"
+                            app:theme="@style/AppSpinnerTheme" />
+
+
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/textOtherDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sameAsAboveExtraLayout"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/header_other_details"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorSkyBlue"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/headerOtherLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/textOtherDetails"
+                    android:paddingTop="15dp">
+
+                    <!-- <Spinner
+                         android:id="@+id/selectChannel"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="3dp"
+                         android:layout_marginRight="3dp"
+                         android:hint="Channel"
+                         android:textSize="13sp"
+                         android:visibility="visible"
+                         app:met_floatingLabel="highlight"
+                         app:theme="@style/AppSpinnerTheme" />-->
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/mailLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:theme="@style/TextAppearance">
+
+                        <EditText
+                            android:id="@+id/editEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_type_email"
+                            android:imeOptions="actionDone"
+                            android:inputType="textEmailAddress"
+                            android:singleLine="true"
+                            android:textSize="13sp" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/mobileLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/mailLayout"
+                        android:layout_marginTop="15dp"
+                        android:theme="@style/TextAppearance">
+
+                        <EditText
+                            android:id="@+id/editMobileNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_type_mobile"
+                            android:imeOptions="actionDone"
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:singleLine="true"
+                            android:textSize="13sp" />
+
+                    </android.support.design.widget.TextInputLayout>
+                    <TextView
+                        android:id="@+id/StateLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_state_city"
+                        android:textSize="13sp"
+                        android:paddingTop="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_10dp"
+                        style="@style/InputLabel"
+                        android:textColor="@color/colorCheckboxGray"
+                        android:layout_below="@+id/mobileLayout"
+                        android:visibility="visible"/>
+                    <!-- Customize Spinner Comment here. -->
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+
+                        android:id="@+id/selectState1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/StateLabel"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="13sp"
+                        app:theme="@style/AppSpinnerTheme"
+                        android:hint="@string/select_value"
+                        app:ms_dropdown_height="100dp"
+                        android:visibility="gone"
+
+                        />
+
+                    <EditText
+
+                        android:id="@+id/selectState"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/StateLabel"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:focusable="false"
+                        android:hint="@string/select_value"
+                        android:textSize="@dimen/_12sp"
+                        android:visibility="visible"
+                        app:ms_dropdown_height="100dp"
+                        app:theme="@style/AppSpinnerTheme" />
+
+                    <TextView
+                        android:id="@+id/CityLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_city"
+                        android:textSize="@dimen/_12sp"
+                        android:paddingTop="@dimen/_8sp"
+                        style="@style/InputLabel"
+                        android:layout_below="@+id/selectState"
+                        android:visibility="gone"/>
+                    <!-- Customize Spinner Comment here. -->
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/selectCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/CityLabel"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:clickable="false"
+                        android:textSize="13sp"
+                        app:theme="@style/AppSpinnerTheme"
+                        app:ms_hint="@string/select_value"
+                        app:ms_dropdown_height="100dp"
+                        android:visibility="gone"
+                        />
+
+
+                    <!--<Spinner
+                        android:id="@+id/selectBranch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/selectCity"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:hint="@string/hint_select_branch"
+                        android:textSize="13sp"
+                        app:met_floatingLabel="highlight"
+                        app:theme="@style/AppSpinnerTheme" />-->
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorRed"
+            android:onClick="onClick"
+            android:text="@string/btn_text_proceed"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/touchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" >
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="60dp"
+        android:text="Select StateCity"
+        android:visibility="gone"/>
+</RelativeLayout>

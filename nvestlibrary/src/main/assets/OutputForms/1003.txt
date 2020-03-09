@@ -1,0 +1,34 @@
+<table style="border: 1px solid #AECFF7;table-layout:auto; border-collapse: collapse;width:100%"> 
+<thead style="page-break-inside: avoid ;">
+<tr>
+<th style="font-family: Arial, sans-serif; font-size:9px; font-weight: bold; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="2">In Years</th>
+<th style="font-family: Arial, sans-serif; font-size:9px; font-weight: bold; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="6">Figures in Rs</th>
+</tr>
+<tr>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="3">Policy Year</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="3">Age at the End of Policy Year</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="3">Annualised Premium at the Beginning of Policy Year (excluding Rider Premium and NSAP loading, if any and all extra premium, Goods and Services Tax)</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="4">Guaranteed Benefits</td>
+<td style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="3">Non - Guaranteed Benefits</td>
+</tr>
+<tr>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Death Benefit during the Policy Term</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Survival Benefits during the Policy Term</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Maturity Benefit at end of the Policy Term</td>
+<td style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Minimum GuaranteedSurrender Value at the end of the year before payment of survival benefits</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[POLICYYEAR]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[LI_AGE]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[ANN_PREM_YEARLY]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[DB_G]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[MBACK]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[MB_G]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[GSV]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

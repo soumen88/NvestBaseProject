@@ -1,0 +1,50 @@
+
+<br/>
+      <p> <strong> Note:</strong></p>
+	  <br/>
+	  <br/>
+   <ol type="1" style="line-height: 25px;">
+   <li style="margin-bottom: 10px;">
+       If the premium is coming zero, please check the input values as per plan limits 
+   </li>
+       <li style="margin-bottom: 10px;">
+			In case the loan interest rates is not in multiples of 1%, the insured member will be allowed to choose the immediate lower or immediate higher interest rate that is in multiples of 1%. Interest rate chosen at the time of inception of the cover shall not be allowed to change subsequently during the policy term.
+		 </li>
+       <li style="margin-bottom: 10px;">
+           The premium amount shown above is indicative and calculated assuming that the Insured Member is a normal healthy person.
+       </li>
+       <li style="margin-bottom: 10px;">
+           Sub-standard lives will be covered with appropriate extra premium as per the Company's underwriting guidelines. 
+       </li>
+       <li style="margin-bottom: 10px;">
+           Goods and Services tax will be charged on premiums as per prevailing tax laws. The rate currently applicable is 18%.This is subject to any change in the tax rate.
+       </li>
+       <li style="margin-bottom: 10px;">
+           For more details on risk factor, terms and conditions, please read the Sales brochure of the plan carefully before concluding a sale 
+       </li>
+       <li style="margin-bottom: 10px;">
+           In case you require any clarification, please consult your insurance advisor or call our office. 
+       </li>
+   </ol>
+    <p>
+        What is Study Period?   <br/>
+        Study period refers to the Course duration. For e.g. for B.E it is 4 years. During the study period, the coverage will be for the entire loan amount 
+    </p>
+    <p>
+        What is Moratorium Period?  <br/>
+        Moratorium starts after study period. It is the period during which the student is not required to pay the EMI. Hence during this period also, the coverage will be for the entire loan amount. For. E.g Moratorium will start after completing 4 years of B.E education and the sum of study period and moratorium period will not exceed 8 years.
+    </p>
+    <p>
+        What is Repayment Period?   <br/>
+        Repayment Period refers to the time period during which EMI is paid and it will start after the Mortatorium Period (Including Study Period)
+    </p>
+    <p>I .............................................. (Name), having received the information with respect to the above, have understood the above statement before entering into the contract.</p>
+	<p>Signature of the Specified Person / Agent / Other Sales Representative :</p>
+	<p><br /> </p>
+	<p class="signature">Company Seal: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policyholder's signature</p>
+	<p>
+	<br /> Name of the Specified Person / Agent / Other Sales Representative :
+	<br /> Specified Person / Agent / Other Sales Representative Code :
+	<br /> Place:
+	<br /> Date:
+	</p>

@@ -1,0 +1,33 @@
+<table style="border: 1px solid #AECFF7;table-layout:auto; border-collapse: collapse;width:100%"> 
+<thead style="page-break-inside: avoid ;">
+<tr>
+<th style="font-family: Arial, sans-serif; font-size:9px; font-weight: bold; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="8">Figures in Rs</th>
+</tr>
+<tr>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Policy Year</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Age of the Life Assured (in Years)</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" rowspan="2">Base Annualized Premium at the Beginning of Policy Year (excluding Rider Premium and NSAP loading, if any and all extra premium, Goods and Services Tax)</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;" colspan="5">Guaranteed Benefits</td>
+</tr>
+<tr>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Death Benefit during the Policy term</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Monthly Payout (Payable at the beginning of the month - Accumulated for the Year)</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Annual Payout (Payable at the end of the year)</td>
+<td style="font-family: Tahoma, Geneva, sans-serif ; ;font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; text-align: center;">Maturity Payout (Payable at the end of the year)</td>
+<td style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; font-weight: bold; background-color: #ebf7ff; color: #2860a3; vertical-align: top;">Guaranteed Surrender Value at the end of the year after payment of Survival Benefits (i.e. Monthly and Annual Payouts)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[POLICYYEAR]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[LI_ATTAINED_AGE]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[ANN_PREM_YEARLY]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[DB_G]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[MONTHLY_PAYOUT]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[ANN_PAYOUT]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[MB_G]</span></td>
+<td class="edittd ui-droppable" style="font-family: Arial, sans-serif; font-size:9px; padding: 10px 4px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; vertical-align: top;" contenteditable="true"><span>[GSV]</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

@@ -1,0 +1,68 @@
+
+
+<table style="border: 1px solid #AECFF7;table-layout:auto; border-collapse: collapse;width:100%"> 
+  
+  <thead style="page-break-inside: avoid ;">
+    <tr>
+      <th style="font-family:Arial, sans-serif;font-size:9px;font-weight:bold;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;background-color:#ebf7ff;color:#2860a3;text-align:center" colspan="3">In Years
+      </th>
+      <th style="font-family:Arial, sans-serif;font-size:9px;font-weight:bold;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;background-color:#ebf7ff;color:#2860a3;text-align:center" colspan="5">Figures in Rs
+      </th>
+    </tr>
+    <tr>
+      <td style="font-family:Tahoma, Geneva, sans-serif ;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center" rowspan="2">Policy Year
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center" rowspan="2">Age of the Life Assured (in years)
+      </td>
+      <td style="font-family:Tahoma, Geneva, sans-serif ;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center" rowspan="2">Age of Child (in years)
+      </td>
+      <td style="font-family:Tahoma, Geneva, sans-serif ;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center" rowspan="2">Annualised Premium at the Beginning of Policy Year ( exclusive of Rider Premium,NSAP loading, if any and all extra premium, Goods and Services Tax)
+      </td>
+      <td style="font-family:Tahoma, Geneva, sans-serif ;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center" colspan="4">Guaranteed Benefits
+      </td>
+    </tr>
+    <tr>
+      <td style="font-family:Tahoma, Geneva, sans-serif ;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Death Benefit during the Policy Term
+      </td>
+      <td style="font-family:Tahoma, Geneva, sans-serif ;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Child Benefits - End of the Year
+      </td>
+      <td style="font-family:Tahoma, Geneva, sans-serif ;;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center">Benefit Booster - End of the Year
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;font-weight:bold;background-color:#ebf7ff;color:#2860a3;text-align:center;vertical-align:top">GuaranteedSurrender Value at the End of the year before payment of Survival Benefits
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[POLICYYEAR]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[LI_ATTAINED_AGE]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[CHILD_ATTAINED_AGE]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[ANN_PREM_YEARLY]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[DB_G]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[MB_TOTAL]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[BB]</span>
+      </td>
+      <td style="font-family:Arial, sans-serif;font-size:9px;padding:10px 4px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;vertical-align:top" contenteditable="true" class="edittd ui-droppable">
+        <span>[GSV]</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span class="line-numbers-rows">
+  <span>
+  </span>
+</span>
+</br>
