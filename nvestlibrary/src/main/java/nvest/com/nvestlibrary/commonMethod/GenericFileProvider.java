@@ -1,6 +1,6 @@
 package nvest.com.nvestlibrary.commonMethod;
 
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 
 /**
  * We need this class for android.support.v4.content.FileProvider

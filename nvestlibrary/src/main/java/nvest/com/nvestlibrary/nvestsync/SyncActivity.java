@@ -3,22 +3,19 @@ package nvest.com.nvestlibrary.nvestsync;
 import android.Manifest;
 import android.app.DownloadManager;
 import android.app.ProgressDialog;
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MediatorLiveData;
-import android.arch.lifecycle.MutableLiveData;
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
-import android.arch.persistence.db.SimpleSQLiteQuery;
-import android.content.Context;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MediatorLiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.sqlite.db.SimpleSQLiteQuery;
+
 import android.content.Intent;
 import android.database.Cursor;
-import android.net.Uri;
-import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
-import android.support.annotation.Nullable;
-import android.util.TimingLogger;
+
+import androidx.annotation.Nullable;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,32 +23,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.work.WorkInfo;
-import androidx.work.WorkManager;
-
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.reactivex.Completable;
-import io.reactivex.CompletableObserver;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Action;
-import io.reactivex.observers.DisposableSingleObserver;
-import io.reactivex.schedulers.Schedulers;
 import nvest.com.nvestlibrary.BuildConfig;
 import nvest.com.nvestlibrary.R;
 import nvest.com.nvestlibrary.base.BaseActivity;
@@ -60,15 +38,10 @@ import nvest.com.nvestlibrary.commonMethod.GenericDTO;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.commonMethod.RequestPermissionHandler;
 import nvest.com.nvestlibrary.commonMethod.SyncHandlerFactory;
-import nvest.com.nvestlibrary.databaseFiles.dao.RoomDatabaseSingleton;
 import nvest.com.nvestlibrary.databaseFiles.dao.fundstrategytable.FundStrategyMasterRoom;
 import nvest.com.nvestlibrary.databaseFiles.dao.mortalitychargetable.MortalityChargeRoom;
-import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
-import nvest.com.nvestlibrary.nvestWebClient.NvestWebApiClient;
 import nvest.com.nvestlibrary.nvestWebInterface.NvestWebApiInterface;
 import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
-import nvest.com.nvestlibrary.nvestWebModel.NvestProductParserModel;
-import nvest.com.nvestlibrary.productinformation.ProductInformationDataViewModel;
 
 public class SyncActivity extends BaseActivity implements SyncHandlerFactory.SyncListener {
     private static String TAG = SyncActivity.class.getSimpleName();

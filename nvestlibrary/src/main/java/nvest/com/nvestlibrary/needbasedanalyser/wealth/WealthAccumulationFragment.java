@@ -2,10 +2,10 @@ package nvest.com.nvestlibrary.needbasedanalyser.wealth;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TextInputLayout;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.textfield.TextInputLayout;
+import androidx.fragment.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -26,7 +26,6 @@ import java.util.TreeMap;
 
 import nvest.com.nvestlibrary.R;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.commonMethod.GenericDTO;
 import nvest.com.nvestlibrary.commonMethod.NvestCustomScrollView;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.nvestWebModel.DynamicSpinnerModel;

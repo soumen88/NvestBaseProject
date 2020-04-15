@@ -1,23 +1,17 @@
 package nvest.com.nvestlibrary.productinformation;
 
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.Editable;
 import android.text.InputType;
-import android.text.TextUtils;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.EditText;
-
-import com.jaredrummler.materialspinner.MaterialSpinner;
 
 import nvest.com.nvestlibrary.R;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,9 +20,7 @@ import nvest.com.nvestlibrary.basicInformation.BasicInformationDataViewModel;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.nvestCursorModel.Products;
-import nvest.com.nvestlibrary.nvestWebModel.DynamicCheckBoxModel;
 import nvest.com.nvestlibrary.nvestWebModel.DynamicEditTextModel;
-import nvest.com.nvestlibrary.nvestWebModel.DynamicSpinnerModel;
 import nvest.com.nvestlibrary.nvestWebModel.Keyword;
 import nvest.com.nvestlibrary.nvestWebModel.StringKeyValuePair;
 

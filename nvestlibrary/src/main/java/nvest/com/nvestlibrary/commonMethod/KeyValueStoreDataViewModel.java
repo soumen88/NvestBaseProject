@@ -1,24 +1,20 @@
 package nvest.com.nvestlibrary.commonMethod;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.MutableLiveData;
-import android.database.Cursor;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.MutableLiveData;
+import androidx.annotation.NonNull;
 
 import java.util.List;
 
 import io.reactivex.Completable;
 import io.reactivex.CompletableObserver;
-import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Action;
 import io.reactivex.schedulers.Schedulers;
 import nvest.com.nvestlibrary.databaseFiles.dao.RoomDatabaseSingleton;
 import nvest.com.nvestlibrary.databaseFiles.dao.keyvaluestoretable.KeyValueStoreRoom;
-import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
 import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
-import nvest.com.nvestlibrary.nvestWebModel.Keyword;
 
 public class KeyValueStoreDataViewModel extends AndroidViewModel {
 

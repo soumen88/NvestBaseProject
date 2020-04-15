@@ -1,7 +1,7 @@
 package nvest.com.nvestlibrary.landing;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +13,6 @@ import java.util.List;
 
 import nvest.com.nvestlibrary.R;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.databaseFiles.dao.productMasterTable.ProductMasterRoom;
 import nvest.com.nvestlibrary.nvestCursorModel.Products;
 
 public class SUDProductContentAdapter extends RecyclerView.Adapter<SUDProductContentAdapter.MyViewHolder>{

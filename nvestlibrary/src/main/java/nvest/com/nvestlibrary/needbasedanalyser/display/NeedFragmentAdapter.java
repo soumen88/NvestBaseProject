@@ -2,20 +2,17 @@ package nvest.com.nvestlibrary.needbasedanalyser.display;
 
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import nvest.com.nvestlibrary.R;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.databaseFiles.dao.productMasterTable.ProductMasterRoom;
-import nvest.com.nvestlibrary.nvestCursorModel.Products;
 import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
 
 public class NeedFragmentAdapter extends RecyclerView.Adapter<NeedFragmentAdapter.MyViewHolder>{

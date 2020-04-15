@@ -1,11 +1,8 @@
 package nvest.com.nvestlibrary.summary;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.content.ContentValues;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.annotation.NonNull;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -14,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.nvestCursorModel.Products;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
 

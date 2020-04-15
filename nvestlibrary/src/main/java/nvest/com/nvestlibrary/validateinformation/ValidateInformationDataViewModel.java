@@ -1,11 +1,11 @@
 package nvest.com.nvestlibrary.validateinformation;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.MutableLiveData;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,11 +14,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import io.reactivex.Completable;
 import io.reactivex.CompletableObserver;
@@ -27,11 +22,9 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Action;
 import io.reactivex.schedulers.Schedulers;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.commonMethod.GenericDTO;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
 import nvest.com.nvestlibrary.nvestWebModel.DynamicParams;
-import nvest.com.nvestlibrary.nvestWebModel.Keyword;
 import nvest.com.nvestlibrary.nvestWebModel.PTPPTGoal;
 import nvest.com.nvestlibrary.nvestWebModel.Productneed;
 import nvest.com.nvestlibrary.nvestWebModel.ValidationIP;

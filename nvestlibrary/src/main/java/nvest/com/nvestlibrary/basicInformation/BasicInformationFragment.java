@@ -1,23 +1,20 @@
 package nvest.com.nvestlibrary.basicInformation;
 
 import android.app.DatePickerDialog;
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TextInputLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.textfield.TextInputLayout;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -28,8 +25,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.DatePicker;
@@ -41,10 +36,8 @@ import android.widget.PopupWindow;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
-import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toolbar;
 
 
 import androidx.navigation.Navigation;
@@ -58,30 +51,18 @@ import java.util.List;
 import java.util.Map;
 
 
-import io.reactivex.Completable;
-import io.reactivex.CompletableObserver;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Action;
-import io.reactivex.schedulers.Schedulers;
 import nvest.com.nvestlibrary.R;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
 import nvest.com.nvestlibrary.commonMethod.GenericDTO;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.landing.LandingActivity;
 import nvest.com.nvestlibrary.nvestCursorModel.Products;
-import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
 import nvest.com.nvestlibrary.nvestWebModel.Cities;
-import nvest.com.nvestlibrary.nvestWebModel.DynamicParams;
-import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
 import nvest.com.nvestlibrary.nvestWebModel.Keyword;
 import nvest.com.nvestlibrary.nvestWebModel.SelectedProductDetails;
 import nvest.com.nvestlibrary.nvestWebModel.StateCitiesModel;
 import nvest.com.nvestlibrary.nvestWebModel.StringKeyValuePair;
 
-
-
-import nvest.com.nvestlibrary.productinformation.ProductInformationFragment;
 
 import static nvest.com.nvestlibrary.commonMethod.CommonMethod.getSpinnerKey;
 import static nvest.com.nvestlibrary.commonMethod.CommonMethod.isValidEmail;

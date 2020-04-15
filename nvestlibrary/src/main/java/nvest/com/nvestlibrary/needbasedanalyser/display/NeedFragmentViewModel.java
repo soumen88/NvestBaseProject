@@ -1,11 +1,11 @@
 package nvest.com.nvestlibrary.needbasedanalyser.display;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.MutableLiveData;
 import android.database.Cursor;
-import android.database.DatabaseUtils;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,10 +16,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Action;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
 import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
-import nvest.com.nvestlibrary.nvestWebModel.Keyword;
 
 public class NeedFragmentViewModel extends AndroidViewModel {
     private static String TAG  = NeedFragmentViewModel.class.getSimpleName();

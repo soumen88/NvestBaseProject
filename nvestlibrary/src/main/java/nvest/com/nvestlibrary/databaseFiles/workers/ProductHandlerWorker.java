@@ -9,8 +9,8 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 
 import androidx.work.Data;
 import androidx.work.ListenableWorker;
@@ -18,19 +18,13 @@ import androidx.work.WorkerParameters;
 import androidx.work.impl.utils.futures.SettableFuture;
 
 import com.google.common.util.concurrent.ListenableFuture;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -46,15 +40,9 @@ import io.reactivex.schedulers.Schedulers;
 import nvest.com.nvestlibrary.BuildConfig;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
-import nvest.com.nvestlibrary.commonMethod.SyncHandlerFactory;
 import nvest.com.nvestlibrary.connectionDetector.ConnectionDetector;
-import nvest.com.nvestlibrary.landing.LandingActivity;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
-import nvest.com.nvestlibrary.nvestWebClient.NvestWebApiClient;
-import nvest.com.nvestlibrary.nvestWebModel.InputByteStreamReader;
-import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
 import nvest.com.nvestlibrary.nvestWebModel.ModifiedProductDetailsModel;
-import nvest.com.nvestlibrary.nvestcheck.NvestCheckActivity;
 
 public class ProductHandlerWorker extends ListenableWorker implements WorkerMessageInterface {
     private static String TAG = ProductHandlerWorker.class.getSimpleName();

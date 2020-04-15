@@ -1,13 +1,12 @@
 package nvest.com.nvestlibrary.databaseFiles.dao.basicinformationdetailstable;
 
-import android.arch.persistence.room.Dao;
-import android.arch.persistence.room.Insert;
-import android.arch.persistence.room.Query;
+import androidx.room.Dao;
+import androidx.room.Insert;
+import androidx.room.Query;
 
 import java.util.List;
 
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
-import nvest.com.nvestlibrary.databaseFiles.dao.formulatable.FormulaRoom;
 
 @Dao
 public interface BasicInformationDetailRoomDao {

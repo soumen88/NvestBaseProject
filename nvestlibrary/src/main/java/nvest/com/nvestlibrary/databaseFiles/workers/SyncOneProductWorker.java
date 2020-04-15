@@ -10,8 +10,8 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 
 import androidx.work.Data;
 import androidx.work.ListenableWorker;
@@ -43,10 +43,8 @@ import nvest.com.nvestlibrary.BuildConfig;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
-import nvest.com.nvestlibrary.nvestWebClient.NvestWebApiClient;
 import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
 import nvest.com.nvestlibrary.nvestWebModel.ModifiedProductDetailsModel;
-import nvest.com.nvestlibrary.nvestcheck.NvestCheckActivity;
 
 
 public class SyncOneProductWorker  extends ListenableWorker {

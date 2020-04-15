@@ -9,7 +9,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.TimingLogger;
 
 import androidx.work.Data;
@@ -19,13 +19,10 @@ import androidx.work.impl.utils.futures.SettableFuture;
 
 import com.google.common.util.concurrent.ListenableFuture;
 
-import java.io.File;
-
 import nvest.com.nvestlibrary.BuildConfig;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
-import nvest.com.nvestlibrary.nvestWebClient.NvestWebApiClient;
 
 public class DownloadDataWorker extends ListenableWorker {
     private static String TAG = DownloadDataWorker.class.getSimpleName();

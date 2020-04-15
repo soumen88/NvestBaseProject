@@ -2,15 +2,15 @@ package nvest.com.nvestlibrary.generatePdf;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.Build;
 import android.print.PdfGenerator;
 import android.print.PrintAttributes;
 import android.print.PrintDocumentAdapter;
-import android.support.annotation.RequiresApi;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.RequiresApi;
+import androidx.fragment.app.FragmentActivity;
 import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;

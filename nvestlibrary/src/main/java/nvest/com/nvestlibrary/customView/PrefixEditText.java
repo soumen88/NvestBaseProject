@@ -2,7 +2,7 @@ package nvest.com.nvestlibrary.customView;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.AttributeSet;
 
 import com.rengwuxian.materialedittext.MaterialEditText;

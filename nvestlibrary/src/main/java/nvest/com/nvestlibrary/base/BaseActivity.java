@@ -4,19 +4,16 @@ package nvest.com.nvestlibrary.base;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
-import android.support.annotation.StringRes;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Toast;
 
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
 import nvest.com.nvestlibrary.connectionDetector.ConnectionDetector;
 import nvest.com.nvestlibrary.databaseFiles.dao.RoomDatabaseSingleton;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
-import nvest.com.nvestlibrary.nvestWebModel.DynamicParams;
 
 public abstract class BaseActivity extends AppCompatActivity implements MvpView {
     private static String TAG = BaseActivity.class.getSimpleName();

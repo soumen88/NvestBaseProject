@@ -2,14 +2,10 @@ package nvest.com.nvestlibrary.commonMethod;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.support.annotation.Nullable;
 import android.widget.Toast;
 
 import androidx.work.Data;
-import androidx.work.ExistingPeriodicWorkPolicy;
-import androidx.work.ExistingWorkPolicy;
 import androidx.work.OneTimeWorkRequest;
-import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkInfo;
 import androidx.work.WorkManager;
 
@@ -17,7 +13,6 @@ import com.google.common.util.concurrent.ListenableFuture;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
 
 import nvest.com.nvestlibrary.databaseFiles.workers.DeleteTableWorker;
 import nvest.com.nvestlibrary.databaseFiles.workers.DownloadDataWorker;

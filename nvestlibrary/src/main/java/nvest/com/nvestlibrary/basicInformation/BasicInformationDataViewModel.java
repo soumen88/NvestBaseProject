@@ -2,13 +2,11 @@ package nvest.com.nvestlibrary.basicInformation;
 
 import android.annotation.SuppressLint;
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.MutableLiveData;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
-import android.support.annotation.NonNull;
-
-import com.bumptech.glide.load.Key;
+import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,10 +19,8 @@ import io.reactivex.CompletableObserver;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Action;
-import io.reactivex.schedulers.Schedulers;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
-import nvest.com.nvestlibrary.nvestCursorModel.Products;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
 import nvest.com.nvestlibrary.nvestWebModel.Cities;
 import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
@@ -32,7 +28,6 @@ import nvest.com.nvestlibrary.nvestWebModel.Keyword;
 import nvest.com.nvestlibrary.nvestWebModel.SelectedProductDetails;
 import nvest.com.nvestlibrary.nvestWebModel.StateCitiesModel;
 import nvest.com.nvestlibrary.nvestWebModel.StringKeyValuePair;
-import nvest.com.nvestlibrary.nvestWebModel.Value;
 
 public class BasicInformationDataViewModel extends AndroidViewModel {
     private static String TAG = BasicInformationDataViewModel.class.getSimpleName();

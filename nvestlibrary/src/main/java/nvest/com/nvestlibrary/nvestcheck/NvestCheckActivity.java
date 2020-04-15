@@ -1,23 +1,18 @@
 package nvest.com.nvestlibrary.nvestcheck;
 
-import android.arch.lifecycle.ViewModelProviders;
-import android.content.Context;
-import android.content.pm.ApplicationInfo;
+import androidx.lifecycle.ViewModelProviders;
+
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import org.sqlite.database.sqlite.SQLiteDatabase;
-import org.sqlite.database.sqlite.SQLiteStatement;
 
 import java.io.File;
 import io.reactivex.ObservableEmitter;

@@ -1,19 +1,11 @@
 package nvest.com.nvestlibrary.commonMethod;
 
-import android.Manifest;
 import android.annotation.SuppressLint;
-import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.content.pm.PermissionGroupInfo;
-import android.content.pm.PermissionInfo;
-import android.location.LocationManager;
-import android.os.Build;
 import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
-import android.telephony.TelephonyManager;
-import static android.content.Context.LOCATION_SERVICE;
+import androidx.core.app.ActivityCompat;
 
 /**
  * @author Soumen Das.

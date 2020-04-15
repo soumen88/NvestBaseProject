@@ -1,7 +1,7 @@
 package nvest.com.nvestlibrary.databaseFiles.dao;
 
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
 import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.databaseFiles.dao.bonusguaranteetable.BonusGuaranteeRoom;

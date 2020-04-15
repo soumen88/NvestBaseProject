@@ -1,28 +1,22 @@
 package nvest.com.nvestlibrary.productinformation;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.MutableLiveData;
 import android.database.Cursor;
-import android.database.DatabaseUtils;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import io.reactivex.Completable;
 import io.reactivex.CompletableObserver;
@@ -36,11 +30,9 @@ import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.databaseFiles.dao.RoomRawQueryBuilder;
 import nvest.com.nvestlibrary.databaseFiles.dao.optionmaster.OptionMasterRoom;
 import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
-import nvest.com.nvestlibrary.nvestWebModel.DynamicParams;
 import nvest.com.nvestlibrary.nvestWebModel.FundStrategyModel;
 import nvest.com.nvestlibrary.nvestWebModel.FundsModel;
 import nvest.com.nvestlibrary.nvestWebModel.KeyValuePair;
-import nvest.com.nvestlibrary.nvestWebModel.Keyword;
 import nvest.com.nvestlibrary.nvestWebModel.MasterOption;
 import nvest.com.nvestlibrary.nvestWebModel.StringKeyValuePair;
 

@@ -1,10 +1,9 @@
 package nvest.com.nvestlibrary.nvestmultidex;
 
-import android.support.multidex.MultiDex;
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDex;
+import androidx.multidex.MultiDexApplication;
 
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.nvestDatabaseAccess.NvestAssetDatabaseAccess;
 
 public class NvestMultiDexApp extends MultiDexApplication {
     private static String TAG = NvestMultiDexApp.class.getSimpleName();

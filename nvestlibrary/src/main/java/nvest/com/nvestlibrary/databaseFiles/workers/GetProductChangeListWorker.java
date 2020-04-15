@@ -1,18 +1,15 @@
 package nvest.com.nvestlibrary.databaseFiles.workers;
 
-import android.app.DownloadManager;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
-import android.content.IntentFilter;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.support.annotation.NonNull;
-import android.support.v4.app.NotificationCompat;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.NotificationCompat;
 
 import androidx.work.Data;
 import androidx.work.ListenableWorker;
-import androidx.work.WorkInfo;
 import androidx.work.WorkerParameters;
 import androidx.work.impl.utils.futures.SettableFuture;
 
@@ -47,7 +44,6 @@ import nvest.com.nvestlibrary.nvestWebModel.ChangeProductDetailsModel;
 import nvest.com.nvestlibrary.nvestWebModel.DeletedProductDetails;
 import nvest.com.nvestlibrary.nvestWebModel.MasterProductDetailModel;
 import nvest.com.nvestlibrary.nvestWebModel.ModifiedProductDetailsModel;
-import nvest.com.nvestlibrary.nvestWebModel.NvestProductParserModel;
 
 public class GetProductChangeListWorker extends ListenableWorker implements WorkerMessageInterface{
 

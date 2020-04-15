@@ -2,7 +2,7 @@ package nvest.com.nvestlibrary.databaseFiles.workers;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.google.common.util.concurrent.ListenableFuture;
 

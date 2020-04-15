@@ -1,7 +1,7 @@
 package nvest.com.nvestlibrary.databaseFiles.dao;
 
-import android.arch.persistence.db.SupportSQLiteProgram;
-import android.arch.persistence.db.SupportSQLiteQuery;
+import androidx.sqlite.db.SupportSQLiteProgram;
+import androidx.sqlite.db.SupportSQLiteQuery;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -10,7 +10,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.commonMethod.GenericDTO;
 
 public final class RoomRawQueryBuilder implements SupportSQLiteQuery {
     private static String TAG = RoomRawQueryBuilder.class.getSimpleName();

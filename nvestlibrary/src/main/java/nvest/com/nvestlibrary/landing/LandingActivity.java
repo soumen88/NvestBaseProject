@@ -1,24 +1,21 @@
 package nvest.com.nvestlibrary.landing;
 
-import android.arch.lifecycle.MutableLiveData;
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationView;
+
+import androidx.fragment.app.FragmentManager;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
 import androidx.navigation.NavController;
-import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
@@ -30,11 +27,7 @@ import nvest.com.nvestlibrary.R;
 import nvest.com.nvestlibrary.base.BaseActivity;
 import nvest.com.nvestlibrary.basicInformation.BasicInformationFragment;
 import nvest.com.nvestlibrary.commonMethod.CommonMethod;
-import nvest.com.nvestlibrary.commonMethod.NvestLibraryConfig;
 import nvest.com.nvestlibrary.landingfragment.LandingFragment;
-import nvest.com.nvestlibrary.nvestCursorModel.Products;
-import nvest.com.nvestlibrary.nvestWebModel.AllInputList;
-import nvest.com.nvestlibrary.nvestWebModel.SelectedProductDetails;
 import nvest.com.nvestlibrary.nvestWebModel.ValidationIP;
 import nvest.com.nvestlibrary.nvestcheck.NvestCheckActivity;
 import nvest.com.nvestlibrary.nvestsync.SyncActivity;

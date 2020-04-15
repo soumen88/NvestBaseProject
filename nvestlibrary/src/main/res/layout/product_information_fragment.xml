@@ -84,7 +84,7 @@
                                 android:textColor="@color/colorSkyBlue"
                                 android:textSize="12sp" />
 
-                            <android.support.design.widget.TextInputLayout
+                            <com.google.android.material.textfield.TextInputLayout
                                 android:id="@+id/text_PT_input_layout"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
                                     android:textColor="@android:color/black"
                                     android:textSize="13sp" />
 
-                            </android.support.design.widget.TextInputLayout>
+                            </com.google.android.material.textfield.TextInputLayout>
 
                         </LinearLayout>
 
@@ -164,7 +164,7 @@
                                 android:textColor="@color/colorSkyBlue"
                                 android:textSize="15sp" />
 
-                            <android.support.design.widget.TextInputLayout
+                            <com.google.android.material.textfield.TextInputLayout
                                 android:id="@+id/text_PPT_input_layout"
                                 android:layout_width="match_parent"
                                 android:layout_height="40dp"
@@ -181,7 +181,7 @@
                                     android:textColor="@android:color/black"
                                     android:textSize="13sp" />
 
-                            </android.support.design.widget.TextInputLayout>
+                            </com.google.android.material.textfield.TextInputLayout>
 
                         </LinearLayout>
 
@@ -246,7 +246,7 @@
                             android:textColor="@color/colorSkyBlue"
                             android:textSize="15sp" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/text_mode_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
@@ -263,7 +263,7 @@
                                 android:textColor="@android:color/black"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
 
                     </LinearLayout>
@@ -323,7 +323,7 @@
                             android:textColor="@color/colorSkyBlue"
                             android:textSize="15sp" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/text_emr_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -339,7 +339,7 @@
                                 android:textColor="@android:color/black"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
 
                     </LinearLayout>
@@ -399,7 +399,7 @@
                             android:textColor="@color/colorSkyBlue"
                             android:textSize="15sp" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/text_flat_extra_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -415,7 +415,7 @@
                                 android:textColor="@android:color/black"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
 
                     </LinearLayout>
@@ -540,7 +540,7 @@
                             android:textColor="@android:color/black"
                             android:textSize="15sp" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/sum_assured_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -558,7 +558,7 @@
                                 android:singleLine="true"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                         <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                             android:id="@+id/select_sa_input_layout"
@@ -639,7 +639,7 @@
                             android:textSize="15sp" />
 
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/modal_premium_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -658,7 +658,7 @@
                                 android:singleLine="true"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                         <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                             android:id="@+id/select_mp_input_layout"
@@ -737,7 +737,7 @@
                             android:textSize="15sp" />
 
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/annual_premium_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -756,7 +756,7 @@
                                 android:singleLine="true"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                         <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                             android:id="@+id/select_ap_input_layout"
@@ -836,7 +836,7 @@
                             android:textSize="15sp" />
 
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/monthly_income_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -855,7 +855,7 @@
                                 android:singleLine="true"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                         <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                             android:id="@+id/select_mi_input_layout"
@@ -934,7 +934,7 @@
                             android:textSize="15sp" />
 
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/samf_input_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -952,7 +952,7 @@
                                 android:singleLine="true"
                                 android:textSize="13sp" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                         <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                             android:id="@+id/select_samf_input_layout"
@@ -1081,7 +1081,7 @@
                     android:visibility="gone" />
 
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/funds_recycler_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

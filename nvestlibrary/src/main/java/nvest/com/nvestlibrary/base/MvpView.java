@@ -1,7 +1,5 @@
 package nvest.com.nvestlibrary.base;
 
-import android.support.annotation.ColorRes;
-import android.support.annotation.StringRes;
 import android.view.View;
 
 public interface MvpView {
