@@ -383,7 +383,9 @@ public class LandingFragment extends Fragment implements SUDProductContentAdapte
     private void tempnew(){
         CommonMethod.log(TAG , "Inside temp new");
         //Cursor c = NvestAssetDatabaseAccess.getSingletonInstance().ExecuteBiQuery("Select POWER((1.000000000000+0.08),(1.000000000000/12.000000000000))-1 AS [INV_RATE]");
-        Cursor c = NvestAssetDatabaseAccess.getSingletonInstance().ExecuteBiQuery("Select POWER(2,3) AS [INV_RATE]");
+        //Cursor c = NvestAssetDatabaseAccess.getSingletonInstance().ExecuteBiQuery("Select POWER(2,3) AS [INV_RATE]");
+        //Cursor c = NvestAssetDatabaseAccess.getSingletonInstance().ExecuteBiQuery("Select CEIL(25.75) AS [INV_RATE]");
+        Cursor c = NvestAssetDatabaseAccess.getSingletonInstance().ExecuteBiQuery("Select FLOOR(25.75) AS [INV_RATE]");
         //Cursor c = NvestAssetDatabaseAccess.getSingletonInstance().ExecuteBiQuery("Select productname  from productmaster");
         if(c != null){
             c.moveToFirst();
