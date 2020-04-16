@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'maven-publish'
 android {
     compileSdkVersion 28
 
@@ -41,8 +41,16 @@ android {
             }
         }
         release {
+            buildConfigField "boolean", "LIBRARY_DEBUGABLE", "false"
+            buildConfigField "String", "BASE_URL", BASE_URL
+            buildConfigField "String", "BASE_URL_ZIP", BASE_URL_ZIP
+            buildConfigField "String", "TEMP_BASE_URL", TEMP_BASE_URL
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            ndk {
+                // Building with NDK_DEBUG=1 for mips crashes the compiler in ndk 14.
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            }
         }
     }
 
@@ -179,4 +187,36 @@ dependencies {
     //compile project(':sqliteX')
     //implementation 'com.github.graviton57:sqlite-android:1.0.1'
     implementation project(':sqlite3')
+}
+
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.nvest'
+            //You can either define these here or get them from project conf elsewhere
+            artifactId 'library'
+            version '0.0.1'
+            artifact "$buildDir\\outputs\\aar\\nvestlibrary-universal-release.aar"
+            //aar artifact you want to publish
+
+            //generate pom nodes for dependencies
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                configurations.implementation.allDependencies.each { dependency ->
+                    def dependencyNode = dependenciesNode.appendNode('dependency')
+                    dependencyNode.appendNode('groupId', dependency.group)
+                    dependencyNode.appendNode('artifactId', dependency.name)
+                    dependencyNode.appendNode('version', dependency.version)
+                }
+            }
+        }
+    }
+
+    //publish to filesystem repo
+    repositories {
+        maven {
+            url "$buildDir/nvest-base-library"
+        }
+    }
 }
